@@ -21,9 +21,9 @@
         <dc:identifier rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
         <dc:contributor xml:lang="es">María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <vann:preferredNamespacePrefix>esbici</vann:preferredNamespacePrefix>
         <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
 En esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019</rdfs:comment>
+        <vann:preferredNamespacePrefix>esbici</vann:preferredNamespacePrefix>
         <dc:contributor xml:lang="es">Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#"/>
         <owl:versionInfo>Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.</owl:versionInfo>
@@ -453,6 +453,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento">
         <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Only year</rdfs:comment>
         <rdfs:comment xml:lang="es">Solamente el año, no la fecha completa</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
         <rdfs:label xml:lang="es">Año de nacimiento</rdfs:label>
