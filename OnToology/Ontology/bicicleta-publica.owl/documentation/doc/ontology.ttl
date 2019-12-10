@@ -316,7 +316,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> rdf:type owl:DatatypeProperty ;
                                                                                    rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> ;
                                                                                    rdfs:range xsd:integer ;
-                                                                                   rdfs:comment "Only year"@en ,
+                                                                                   rdfs:comment "Only year, not complete date of birth"@en ,
                                                                                                 "Solamente el año, no la fecha completa"@es ;
                                                                                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
                                                                                    rdfs:label "Año de nacimiento"@es ,
