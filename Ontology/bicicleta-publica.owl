@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#"
-     xml:base="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+<rdf:RDF xmlns="http://www.w3.org/ns/sosa/"
+     xml:base="http://www.w3.org/ns/sosa/"
      xmlns:schema="http://schema.org/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -12,25 +12,25 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
+    <owl:Ontology rdf:about="http://www.w3.org/ns/sosa/">
         <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
-        <owl:imports rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
         <dc:contributor xml:lang="es">Red.es</dc:contributor>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre el sistema de bicicleta pública</dc:title>
         <dc:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:identifier rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
         <dc:contributor xml:lang="es">María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
+        <vann:preferredNamespacePrefix>esbici</vann:preferredNamespacePrefix>
         <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
 En esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019</rdfs:comment>
-        <vann:preferredNamespacePrefix>esbici</vann:preferredNamespacePrefix>
         <dc:contributor xml:lang="es">Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
-        <dc:creator>Francisco Yedro Martinez (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#"/>
         <owl:versionInfo>Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.</owl:versionInfo>
         <dc:contributor xml:lang="es">María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:title xml:lang="en">Vocabulary for the representation of data about the public bicycle system</dc:title>
         <dc:contributor xml:lang="es">María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:creator>Francisco Yedro (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:contributor xml:lang="es">María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
         <dct:issued xml:lang="es">2019-11-07</dct:issued>
         <dc:contributor xml:lang="es">Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
@@ -453,7 +453,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento">
         <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment xml:lang="es">Sólamente año de nacimiento, no se incluye la fecha completa.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Solamente el año, no la fecha completa</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
         <rdfs:label xml:lang="es">Año de nacimiento</rdfs:label>
         <rdfs:label xml:lang="en">Year of birth</rdfs:label>
