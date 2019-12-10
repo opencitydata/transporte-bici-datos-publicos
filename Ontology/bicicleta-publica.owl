@@ -453,6 +453,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento">
         <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="es">Sólamente año de nacimiento, no se incluye la fecha completa.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
         <rdfs:label xml:lang="es">Año de nacimiento</rdfs:label>
         <rdfs:label xml:lang="en">Year of birth</rdfs:label>
