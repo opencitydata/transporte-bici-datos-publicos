@@ -1,0 +1,209 @@
+{
+  "@context" : {
+    "Anclaje" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
+    },
+    "tieneAnclajeDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "tieneAsociadoBicicleta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta",
+      "@type" : "@id"
+    },
+    "matricula" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "tieneAsociadoPuntoDePaso" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso",
+      "@type" : "@id"
+    },
+    "Equipamiento" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"
+    },
+    "startDate" : {
+      "@id" : "http://schema.org/startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "tieneEstacionDestino" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino",
+      "@type" : "@id"
+    },
+    "fechaBaja" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja"
+    },
+    "fechaPaso" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+    },
+    "orden" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasVersion" : {
+      "@id" : "http://purl.org/dc/terms/hasVersion"
+    },
+    "madeBySensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
+      "@type" : "@id"
+    },
+    "Feature" : {
+      "@id" : "http://www.opengis.net/spec/geosparql/1.0#Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "fechaAlta" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta"
+    },
+    "realizaTrayecto" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "tieneAnclajeOrigen" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen",
+      "@type" : "@id"
+    },
+    "estadoEstacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "https://schema.org/name"
+    },
+    "tieneEstacionOrigen" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen",
+      "@type" : "@id"
+    },
+    "address" : {
+      "@id" : "https://schema.org/address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "ObservacionEstacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#ObservacionEstacion"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "PuntoPaso" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "observes" : {
+      "@id" : "http://www.w3.org/ns/sosa/observes",
+      "@type" : "@id"
+    },
+    "tipoEquipamiento" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento",
+      "@type" : "@id"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "estadoBicicleta" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta",
+      "@type" : "@id"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "estadoAnclaje" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje",
+      "@type" : "@id"
+    },
+    "observedProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/observedProperty",
+      "@type" : "@id"
+    },
+    "PropiedadEstacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "tieneAsociadoAnclaje" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje",
+      "@type" : "@id"
+    },
+    "Trayecto" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto"
+    },
+    "EstacionBicicleta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
+    },
+    "sex" : {
+      "@id" : "http://purl.org/linked-data/sdmx/2009/dimension#sex",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "ObservableProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "endDate" : {
+      "@id" : "http://schema.org/endDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Ocupacion" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "Usuario" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "anioNacimiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Observation" : {
+      "@id" : "http://www.w3.org/ns/sosa/Observation"
+    },
+    "Bicicleta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
+    },
+    "Sensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sensor"
+    }
+  }
+}
