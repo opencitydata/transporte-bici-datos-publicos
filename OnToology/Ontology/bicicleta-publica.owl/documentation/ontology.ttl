@@ -324,6 +324,7 @@ xsd:date rdf:type rdfs:Datatype .
 :anioNacimiento rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Usuario ;
                 rdfs:range xsd:integer ;
+                rdfs:comment "Sólamente año de nacimiento, no se incluye la fecha completa."@es ;
                 rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
                 rdfs:label "Año de nacimiento"@es ,
                            "Year of birth"@en .

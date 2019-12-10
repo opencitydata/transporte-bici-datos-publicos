@@ -871,6 +871,10 @@
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Sólamente año de nacimiento, no se incluye la fecha completa."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario"
   } ],
