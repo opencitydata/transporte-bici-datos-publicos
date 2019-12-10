@@ -1,37 +1,37 @@
-@prefix : <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#> .
+@prefix : <http://www.w3.org/ns/sosa/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+@base <http://www.w3.org/ns/sosa/> .
 
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> rdf:type owl:Ontology ;
-                                                                     owl:versionIRI <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                                                                     owl:imports <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                                                                     <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
-                                                                                                                   "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es ,
-                                                                                                                   "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es ,
-                                                                                                                   "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es ,
-                                                                                                                   "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"@es ,
-                                                                                                                   "Red.es"@es ,
-                                                                                                                   "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es ,
-                                                                                                                   "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es ,
-                                                                                                                   "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es ;
-                                                                     <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" ,
-                                                                                                               "Francisco Yedro Martinez (Ontology Engineering Group - Universidad Politécnica de Madrid)" ,
-                                                                                                               "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" ,
-                                                                                                               "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
-                                                                     <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                                                                     <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre el sistema de bicicleta pública"@es ,
-                                                                                                             "Vocabulary for the representation of data about the public bicycle system"@en ;
-                                                                     <http://purl.org/dc/terms/issued> "2019-11-07"@es ;
-                                                                     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
-                                                                     <http://purl.org/vocab/vann/preferredNamespacePrefix> "esbici" ;
-                                                                     <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
-                                                                     rdfs:comment """Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
+<http://www.w3.org/ns/sosa/> rdf:type owl:Ontology ;
+                              owl:versionIRI <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                              owl:imports <http://www.w3.org/ns/sosa/> ;
+                              <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
+                                                                            "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es ,
+                                                                            "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es ,
+                                                                            "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es ,
+                                                                            "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"@es ,
+                                                                            "Red.es"@es ,
+                                                                            "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es ,
+                                                                            "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es ,
+                                                                            "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es ;
+                              <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" ,
+                                                                        "Francisco Yedro (Ontology Engineering Group - Universidad Politécnica de Madrid)" ,
+                                                                        "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" ,
+                                                                        "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
+                              <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                              <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre el sistema de bicicleta pública"@es ,
+                                                                      "Vocabulary for the representation of data about the public bicycle system"@en ;
+                              <http://purl.org/dc/terms/issued> "2019-11-07"@es ;
+                              <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
+                              <http://purl.org/vocab/vann/preferredNamespacePrefix> "esbici" ;
+                              <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#> ;
+                              rdfs:comment """Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
 En esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"""@es ;
-                                                                     owl:versionInfo "Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
+                              owl:versionInfo "Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
 
 #################################################################
 #    Annotation properties
@@ -70,14 +70,6 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
-
-
 ###  http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
 
@@ -96,7 +88,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://purl.org/linked-data/sdmx/2009/dimension#sex
 <http://purl.org/linked-data/sdmx/2009/dimension#sex> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain :Usuario ;
+                                                      rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> ;
                                                       rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                         [ rdf:type owl:Restriction ;
                                                                                           owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -108,89 +100,89 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto
-:realizaTrayecto rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Usuario ;
-                 rdfs:range :Trayecto ;
-                 rdfs:comment "Enlace entre el usuario y el trayecto. Determina cual es el trayecto que ha recorrido un usuario."@es ,
-                              "Link between the user and the route. Determines which path a user has traveled."@en ;
-                 rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                 rdfs:label "makes a route"@en ,
-                            "realiza un trayecto"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> ;
+                                                                                    rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                    rdfs:comment "Enlace entre el usuario y el trayecto. Determina cual es el trayecto que ha recorrido un usuario."@es ,
+                                                                                                 "Link between the user and the route. Determines which path a user has traveled."@en ;
+                                                                                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                    rdfs:label "makes a route"@en ,
+                                                                                               "realiza un trayecto"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino
-:tieneAnclajeDestino rdf:type owl:ObjectProperty ;
-                     rdfs:domain :Trayecto ;
-                     rdfs:range :Anclaje ;
-                     rdfs:comment "Enlace entre el trayecto y el anclaje. Determina cual es el anclaje de destino de un trayecto."@es ,
-                                  "Link between the route and the dock. Determine which is the dock of destination of a route."@en ;
-                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                     rdfs:label "has dock of destination"@en ,
-                                "tiene anclaje de destino"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                        rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> ;
+                                                                                        rdfs:comment "Enlace entre el trayecto y el anclaje. Determina cual es el anclaje de destino de un trayecto."@es ,
+                                                                                                     "Link between the route and the dock. Determine which is the dock of destination of a route."@en ;
+                                                                                        rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                        rdfs:label "has dock of destination"@en ,
+                                                                                                   "tiene anclaje de destino"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen
-:tieneAnclajeOrigen rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Trayecto ;
-                    rdfs:range :Anclaje ;
-                    rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                    rdfs:label "has dock of origin"@en ,
-                               "tiene anclaje de origen"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                       rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> ;
+                                                                                       rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                       rdfs:label "has dock of origin"@en ,
+                                                                                                  "tiene anclaje de origen"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje
-:tieneAsociadoAnclaje rdf:type owl:ObjectProperty ;
-                      rdfs:domain :EstacionBicicleta ;
-                      rdfs:range :Anclaje ;
-                      rdfs:comment "Enlace entre el anclaje y la estación. Determina cual es la estación deun determinado anclaje."@es ,
-                                   "Link between the dock station and the dock. Determine which is the dock associated of a given dock station."@en ;
-                      rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                      rdfs:label "has an associated dock"@en ,
-                                 "tiene asociado un anclaje"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> ;
+                                                                                         rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> ;
+                                                                                         rdfs:comment "Enlace entre el anclaje y la estación. Determina cual es la estación deun determinado anclaje."@es ,
+                                                                                                      "Link between the dock station and the dock. Determine which is the dock associated of a given dock station."@en ;
+                                                                                         rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                         rdfs:label "has an associated dock"@en ,
+                                                                                                    "tiene asociado un anclaje"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta
-:tieneAsociadoBicicleta rdf:type owl:ObjectProperty ;
-                        rdfs:domain :Trayecto ;
-                        rdfs:range :Bicicleta ;
-                        rdfs:comment "Enlace entre el trayecto y la bicicleta. Determina cual es la bicicleta que ha realizado un determinado trayecto."@es ,
-                                     "Link between the route and the bicycle. Determine which bicycle has made a certain route."@en ;
-                        rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                        rdfs:label "has a bicycle associated"@en ,
-                                   "tiene asociado una bicicleta"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta> rdf:type owl:ObjectProperty ;
+                                                                                           rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                           rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> ;
+                                                                                           rdfs:comment "Enlace entre el trayecto y la bicicleta. Determina cual es la bicicleta que ha realizado un determinado trayecto."@es ,
+                                                                                                        "Link between the route and the bicycle. Determine which bicycle has made a certain route."@en ;
+                                                                                           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                           rdfs:label "has a bicycle associated"@en ,
+                                                                                                      "tiene asociado una bicicleta"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso
-:tieneAsociadoPuntoDePaso rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Trayecto ;
-                          rdfs:range :PuntoPaso ;
-                          rdfs:comment "Enlace entre el trayecto y los puntos de paso. Las bicicletas que dispongan de GPS indicarán los puntos de paso de un trayecto determinado."@es ,
-                                       "Link from the journey to the crossing points. Bicycles with GPS will indicate the crossing points of a certain route."@en ;
-                          rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                          rdfs:label "has crossing point"@en ,
-                                     "tiene punto de paso"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso> rdf:type owl:ObjectProperty ;
+                                                                                             rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                             rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso> ;
+                                                                                             rdfs:comment "Enlace entre el trayecto y los puntos de paso. Las bicicletas que dispongan de GPS indicarán los puntos de paso de un trayecto determinado."@es ,
+                                                                                                          "Link from the journey to the crossing points. Bicycles with GPS will indicate the crossing points of a certain route."@en ;
+                                                                                             rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                             rdfs:label "has crossing point"@en ,
+                                                                                                        "tiene punto de paso"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino
-:tieneEstacionDestino rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Trayecto ;
-                      rdfs:range :EstacionBicicleta ;
-                      rdfs:comment "Enlace entre el trayecto y la estación. Determina cual es la estación de origen de un trayecto determinado."@es ,
-                                   "Link from the route to the dock station. Determines which is the initial dock station of a certain route."@en ;
-                      rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                      rdfs:label "has final dock station"@en ,
-                                 "tiene estación de destino"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                         rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> ;
+                                                                                         rdfs:comment "Enlace entre el trayecto y la estación. Determina cual es la estación de origen de un trayecto determinado."@es ,
+                                                                                                      "Link from the route to the dock station. Determines which is the initial dock station of a certain route."@en ;
+                                                                                         rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                         rdfs:label "has final dock station"@en ,
+                                                                                                    "tiene estación de destino"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen
-:tieneEstacionOrigen rdf:type owl:ObjectProperty ;
-                     rdfs:domain :Trayecto ;
-                     rdfs:range :EstacionBicicleta ;
-                     rdfs:comment "Enlace entre el trayecto y la estación. Determina cual es la estación de destino de un trayecto determinado."@es ,
-                                  "Link from the route to the dock station. Determines which is the final dock station of a certain route."@en ;
-                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                     rdfs:label "has initial dock station"@en ,
-                                "tiene estación de origen"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
+                                                                                        rdfs:range <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> ;
+                                                                                        rdfs:comment "Enlace entre el trayecto y la estación. Determina cual es la estación de destino de un trayecto determinado."@es ,
+                                                                                                     "Link from the route to the dock station. Determines which is the final dock station of a certain route."@en ;
+                                                                                        rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                        rdfs:label "has initial dock station"@en ,
+                                                                                                   "tiene estación de origen"@es .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento
@@ -200,7 +192,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje
 <http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> rdf:type owl:ObjectProperty ;
-                                                                        rdfs:domain :Anclaje ;
+                                                                        rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> ;
                                                                         rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                                           [ rdf:type owl:Restriction ;
                                                                                                             owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -218,7 +210,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta
 <http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> rdf:type owl:ObjectProperty ;
-                                                                          rdfs:domain :Bicicleta ;
+                                                                          rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> ;
                                                                           rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                                             [ rdf:type owl:Restriction ;
                                                                                                               owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -236,7 +228,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion
 <http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> rdf:type owl:ObjectProperty ;
-                                                                         rdfs:domain :EstacionBicicleta ;
+                                                                         rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> ;
                                                                          rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                                            [ rdf:type owl:Restriction ;
                                                                                                              owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -261,19 +253,19 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://www.w3.org/ns/sosa/hasFeatureOfInterest
-<http://www.w3.org/ns/sosa/hasFeatureOfInterest> rdf:type owl:ObjectProperty .
+:hasFeatureOfInterest rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/sosa/madeBySensor
-<http://www.w3.org/ns/sosa/madeBySensor> rdf:type owl:ObjectProperty .
+:madeBySensor rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/sosa/observedProperty
-<http://www.w3.org/ns/sosa/observedProperty> rdf:type owl:ObjectProperty .
+:observedProperty rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/sosa/observes
-<http://www.w3.org/ns/sosa/observes> rdf:type owl:ObjectProperty .
+:observes rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -283,12 +275,12 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://purl.org/dc/terms/identifier
 <http://purl.org/dc/terms/identifier> rdf:type owl:DatatypeProperty ;
                                       rdfs:domain [ rdf:type owl:Class ;
-                                                    owl:unionOf ( :Anclaje
-                                                                  :Bicicleta
-                                                                  :EstacionBicicleta
-                                                                  :PuntoPaso
-                                                                  :Trayecto
-                                                                  :Usuario
+                                                    owl:unionOf ( <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
+                                                                  <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta>
+                                                                  <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta>
+                                                                  <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso>
+                                                                  <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto>
+                                                                  <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario>
                                                                 )
                                                   ] ;
                                       rdfs:comment "An unambiguous reference to the resource within a given context."@en ,
@@ -300,7 +292,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://schema.org/endDate
 <http://schema.org/endDate> rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :Trayecto ;
+                            rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
                             rdfs:range xsd:dateTime ;
                             rdfs:comment "La fecha y hora de finalización de un item (en formato fecha ISO 8601)"@es ,
                                          "The end date and time of the item (in ISO 8601 date format)."@en ;
@@ -311,7 +303,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://schema.org/startDate
 <http://schema.org/startDate> rdf:type owl:DatatypeProperty ;
-                              rdfs:domain :Trayecto ;
+                              rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
                               rdfs:range xsd:dateTime ;
                               rdfs:isDefinedBy <https://schema.org/> ;
                               rdfs:label "La fecha y hora de inicio de un item (en formato fecha ISO 8601)."@es ,
@@ -321,42 +313,42 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento
-:anioNacimiento rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Usuario ;
-                rdfs:range xsd:integer ;
-                rdfs:comment "Sólamente año de nacimiento, no se incluye la fecha completa."@es ;
-                rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                rdfs:label "Año de nacimiento"@es ,
-                           "Year of birth"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> ;
+                                                                                   rdfs:range xsd:integer ;
+                                                                                   rdfs:comment "Solamente el año, no la fecha completa"@es ;
+                                                                                   rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                   rdfs:label "Año de nacimiento"@es ,
+                                                                                              "Year of birth"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso
-:fechaPaso rdf:type owl:DatatypeProperty ;
-           rdfs:domain :PuntoPaso ;
-           rdfs:range xsd:dateTime ;
-           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-           rdfs:label "Date of passage"@en ,
-                      "fecha de paso"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso> ;
+                                                                              rdfs:range xsd:dateTime ;
+                                                                              rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                              rdfs:label "Date of passage"@en ,
+                                                                                         "fecha de paso"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula
-:matricula rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Bicicleta ;
-           rdfs:range xsd:string ;
-           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-           rdfs:label "Number plate"@en ,
-                      "matrícula"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> ;
+                                                                              rdfs:range xsd:string ;
+                                                                              rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                              rdfs:label "Number plate"@en ,
+                                                                                         "matrícula"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden
-:orden rdf:type owl:DatatypeProperty ;
-       rdfs:domain :PuntoPaso ;
-       rdfs:range xsd:integer ;
-       rdfs:comment "El número de orden un un punto de paso."@es ;
-       rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-       rdfs:label "The order number of a crossing point."@en ,
-                  "orden"@es ,
-                  "order"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso> ;
+                                                                          rdfs:range xsd:integer ;
+                                                                          rdfs:comment "El número de orden un un punto de paso."@es ;
+                                                                          rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                          rdfs:label "The order number of a crossing point."@en ,
+                                                                                     "orden"@es ,
+                                                                                     "order"@en .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta
@@ -377,7 +369,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  https://schema.org/address
 <https://schema.org/address> rdf:type owl:DatatypeProperty ;
-                             rdfs:domain :EstacionBicicleta ;
+                             rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> ;
                              rdfs:range xsd:string ;
                              rdfs:isDefinedBy <https://schema.org/> ;
                              rdfs:label "address"@en ,
@@ -399,199 +391,199 @@ xsd:date rdf:type rdfs:Datatype .
 #################################################################
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje
-:Anclaje rdf:type owl:Class ;
-         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                           owl:onProperty <http://purl.org/dc/terms/identifier> ;
-                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                           owl:onDataRange xsd:string
-                         ] ;
-         rdfs:comment "Lugar de la estación donde se fijan las bicicletas"@es ,
-                      "Place of the station where the bicycles are fixed"@en ;
-         rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-         rdfs:label "Anclaje"@es ,
-                    "Dock"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://purl.org/dc/terms/identifier> ;
+                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                              owl:onDataRange xsd:string
+                                                                                            ] ;
+                                                                            rdfs:comment "Lugar de la estación donde se fijan las bicicletas"@es ,
+                                                                                         "Place of the station where the bicycles are fixed"@en ;
+                                                                            rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                            rdfs:label "Anclaje"@es ,
+                                                                                       "Dock"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta
-:Bicicleta rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.opengis.net/spec/geosparql/1.0#Feature> ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :matricula ;
-                             owl:allValuesFrom xsd:string
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty <http://purl.org/dc/terms/identifier> ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                             owl:onDataRange xsd:string
-                           ] ;
-           rdfs:comment "A bicycle is a two-wheeled vehicle whose pedals transmit the movement to the rear wheel by means of a plate, a pinion and a chain"@en ,
-                        "Una bicicleta es un vehículo de dos ruedas cuyos pedales transmiten el movimiento a la rueda trasera por medio de un plato, un piñón y una cadena"@es ;
-           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-           rdfs:label "Bicicleta"@es ,
-                      "Bicycle"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.opengis.net/spec/geosparql/1.0#Feature> ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula> ;
+                                                                                                owl:allValuesFrom xsd:string
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://purl.org/dc/terms/identifier> ;
+                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onDataRange xsd:string
+                                                                                              ] ;
+                                                                              rdfs:comment "A bicycle is a two-wheeled vehicle whose pedals transmit the movement to the rear wheel by means of a plate, a pinion and a chain"@en ,
+                                                                                           "Una bicicleta es un vehículo de dos ruedas cuyos pedales transmiten el movimiento a la rueda trasera por medio de un plato, un piñón y una cadena"@es ;
+                                                                              rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                              rdfs:label "Bicicleta"@es ,
+                                                                                         "Bicycle"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta
-:EstacionBicicleta rdf:type owl:Class ;
-                   rdfs:subClassOf <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento> ,
-                                   <http://www.w3.org/ns/sosa/Sensor> ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :tieneAsociadoAnclaje ;
-                                     owl:someValuesFrom :Anclaje
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty <http://www.w3.org/ns/sosa/observes> ;
-                                     owl:allValuesFrom :PropiedadEstacion
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento> ;
-                                     owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas>
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty <https://schema.org/address> ;
-                                     owl:allValuesFrom xsd:string
-                                   ] ;
-                   rdfs:comment "Lugar donde se puede tanto dejar como recoger las bicicletas. Está compuesto de anclajes"@es ,
-                                "Place where you can both leave and pick up bicycles. It is composed of docks"@en ;
-                   rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-                   rdfs:label "Dock station"@en ,
-                              "Estación de bicicletas"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento> ,
+                                                                                                      :Sensor ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje> ;
+                                                                                                        owl:someValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty :observes ;
+                                                                                                        owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion>
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento> ;
+                                                                                                        owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas>
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <https://schema.org/address> ;
+                                                                                                        owl:allValuesFrom xsd:string
+                                                                                                      ] ;
+                                                                                      rdfs:comment "Lugar donde se puede tanto dejar como recoger las bicicletas. Está compuesto de anclajes"@es ,
+                                                                                                   "Place where you can both leave and pick up bicycles. It is composed of docks"@en ;
+                                                                                      rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                                      rdfs:label "Dock station"@en ,
+                                                                                                 "Estación de bicicletas"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#ObservacionEstacion
-:ObservacionEstacion rdf:type owl:Class ;
-                     rdfs:subClassOf <http://www.w3.org/ns/sosa/Observation> ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty <http://www.w3.org/ns/sosa/hasFeatureOfInterest> ;
-                                       owl:allValuesFrom :Ocupacion
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty <http://www.w3.org/ns/sosa/madeBySensor> ;
-                                       owl:allValuesFrom :EstacionBicicleta
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty <http://www.w3.org/ns/sosa/observedProperty> ;
-                                       owl:allValuesFrom :PropiedadEstacion
-                                     ] ;
-                     rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#ObservacionEstacion> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf :Observation ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty :hasFeatureOfInterest ;
+                                                                                                          owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion>
+                                                                                                        ] ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty :madeBySensor ;
+                                                                                                          owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta>
+                                                                                                        ] ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty :observedProperty ;
+                                                                                                          owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion>
+                                                                                                        ] ;
+                                                                                        rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion
-:Ocupacion rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
-           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-           rdfs:label "Occupancy"@en ,
-                      "Ocupacion"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :FeatureOfInterest ;
+                                                                              rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                              rdfs:label "Occupancy"@en ,
+                                                                                         "Ocupacion"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion
-:PropiedadEstacion rdf:type owl:Class ;
-                   rdfs:subClassOf <http://www.w3.org/ns/sosa/ObservableProperty> ;
-                   rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :ObservableProperty ;
+                                                                                      rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso
-:PuntoPaso rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.opengis.net/spec/geosparql/1.0#Feature> ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :fechaPaso ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                             owl:onDataRange xsd:dateTime
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :orden ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                             owl:onDataRange xsd:integer
-                           ] ;
-           rdfs:comment "Part of a route defined by coordinates and a date and time"@en ,
-                        "Parte de un trayecto definido por unas coordenadas y una fecha y hora"@es ;
-           rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-           rdfs:label "Crossing point"@en ,
-                      "Punto de paso"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.opengis.net/spec/geosparql/1.0#Feature> ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso> ;
+                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onDataRange xsd:dateTime
+                                                                                              ] ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden> ;
+                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                owl:onDataRange xsd:integer
+                                                                                              ] ;
+                                                                              rdfs:comment "Part of a route defined by coordinates and a date and time"@en ,
+                                                                                           "Parte de un trayecto definido por unas coordenadas y una fecha y hora"@es ;
+                                                                              rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                              rdfs:label "Crossing point"@en ,
+                                                                                         "Punto de paso"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto
-:Trayecto rdf:type owl:Class ;
-          rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneAnclajeDestino ;
-                            owl:allValuesFrom :Anclaje
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneAnclajeOrigen ;
-                            owl:allValuesFrom :Anclaje
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneAsociadoPuntoDePaso ;
-                            owl:allValuesFrom :PuntoPaso
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneAsociadoBicicleta ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Bicicleta
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneEstacionDestino ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :EstacionBicicleta
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :tieneEstacionOrigen ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :EstacionBicicleta
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty <http://schema.org/endDate> ;
-                            owl:allValuesFrom xsd:dateTime
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty <http://schema.org/startDate> ;
-                            owl:allValuesFrom xsd:dateTime
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty <http://purl.org/dc/terms/identifier> ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onDataRange xsd:string
-                          ] ;
-          rdfs:comment "Distance traveled to get from a source to a destination"@en ,
-                       "Espacio que se recorre para llegar desde un origen hasta un destino"@es ;
-          rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-          rdfs:label "Route"@en ,
-                     "Trayecto"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino> ;
+                                                                                               owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen> ;
+                                                                                               owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso> ;
+                                                                                               owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta> ;
+                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                               owl:onClass <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino> ;
+                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                               owl:onClass <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen> ;
+                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                               owl:onClass <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta>
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://schema.org/endDate> ;
+                                                                                               owl:allValuesFrom xsd:dateTime
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://schema.org/startDate> ;
+                                                                                               owl:allValuesFrom xsd:dateTime
+                                                                                             ] ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://purl.org/dc/terms/identifier> ;
+                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                               owl:onDataRange xsd:string
+                                                                                             ] ;
+                                                                             rdfs:comment "Distance traveled to get from a source to a destination"@en ,
+                                                                                          "Espacio que se recorre para llegar desde un origen hasta un destino"@es ;
+                                                                             rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                             rdfs:label "Route"@en ,
+                                                                                        "Trayecto"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario
-:Usuario rdf:type owl:Class ;
-         rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://purl.org/linked-data/sdmx/2009/dimension#sex> ;
-                                                  owl:allValuesFrom <http://www.w3.org/2004/02/skos/core#Concept>
-                                                ]
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://purl.org/linked-data/sdmx/2009/dimension#sex> ;
-                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                  owl:onClass <http://www.w3.org/2004/02/skos/core#Concept>
-                                                ]
-                                              ) ;
-                           rdf:type owl:Class
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :realizaTrayecto ;
-                           owl:allValuesFrom :Trayecto
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty <http://purl.org/dc/terms/identifier> ;
-                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                           owl:onDataRange xsd:string
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :anioNacimiento ;
-                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                           owl:onDataRange xsd:integer
-                         ] ;
-         rdfs:comment "Person who has the right to use the public bicycle system"@en ,
-                      "Persona que tiene derecho a usar el sistema de bicicleta pública"@es ;
-         rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
-         rdfs:label "User"@en ,
-                    "Usuario"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://purl.org/linked-data/sdmx/2009/dimension#sex> ;
+                                                                                                                     owl:allValuesFrom <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                   ]
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://purl.org/linked-data/sdmx/2009/dimension#sex> ;
+                                                                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                     owl:onClass <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                   ]
+                                                                                                                 ) ;
+                                                                                              rdf:type owl:Class
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto> ;
+                                                                                              owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto>
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://purl.org/dc/terms/identifier> ;
+                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                              owl:onDataRange xsd:string
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> ;
+                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                              owl:onDataRange xsd:integer
+                                                                                            ] ;
+                                                                            rdfs:comment "Person who has the right to use the public bicycle system"@en ,
+                                                                                         "Persona que tiene derecho a usar el sistema de bicicleta pública"@es ;
+                                                                            rdfs:isDefinedBy <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> ;
+                                                                            rdfs:label "User"@en ,
+                                                                                       "Usuario"@es .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento
@@ -644,19 +636,19 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://www.w3.org/ns/sosa/FeatureOfInterest
-<http://www.w3.org/ns/sosa/FeatureOfInterest> rdf:type owl:Class .
+:FeatureOfInterest rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/sosa/ObservableProperty
-<http://www.w3.org/ns/sosa/ObservableProperty> rdf:type owl:Class .
+:ObservableProperty rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/sosa/Observation
-<http://www.w3.org/ns/sosa/Observation> rdf:type owl:Class .
+:Observation rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/sosa/Sensor
-<http://www.w3.org/ns/sosa/Sensor> rdf:type owl:Class .
+:Sensor rdf:type owl:Class .
 
 
 #################################################################
@@ -668,17 +660,17 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesLibres
-:anclajesLibres rdf:type owl:NamedIndividual ,
-                         :PropiedadEstacion ;
-                rdfs:label "anclajes libres"@es ,
-                           "available docks"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesLibres> rdf:type owl:NamedIndividual ,
+                                                                                            <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion> ;
+                                                                                   rdfs:label "anclajes libres"@es ,
+                                                                                              "available docks"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados
-:anclajesOcupados rdf:type owl:NamedIndividual ,
-                           :PropiedadEstacion ;
-                  rdfs:label "anclajes ocupados"@es ,
-                             "no-available docks"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados> rdf:type owl:NamedIndividual ,
+                                                                                              <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion> ;
+                                                                                     rdfs:label "anclajes ocupados"@es ,
+                                                                                                "no-available docks"@en .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje
