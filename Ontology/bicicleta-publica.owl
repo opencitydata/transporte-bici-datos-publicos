@@ -986,14 +986,6 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tiene-genero -->
-
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tiene-genero">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    </owl:NamedIndividual>
-
-
-
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento -->
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento">
