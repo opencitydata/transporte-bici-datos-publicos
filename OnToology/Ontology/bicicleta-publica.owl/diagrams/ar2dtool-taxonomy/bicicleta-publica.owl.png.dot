@@ -1,15 +1,15 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "base:PropiedadEstacion" "base:PuntoPaso" "http://www.w3.org/ns/sosa/ObservableProperty" "http://www.w3.org/ns/sosa/FeatureOfInterest" "base:Usuario" "base:Ocupacion" "-15ebde5b:16eef898c68:-7fd0" "http://www.w3.org/ns/sosa/Observation" "http://www.w3.org/ns/sosa/Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "base:EstacionBicicleta" "base:ObservacionEstacion" "base:Bicicleta" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
+node [shape = rectangle, color="black"]; ":PropiedadEstacion" ":PuntoPaso" "sosa:ObservableProperty" "sosa:FeatureOfInterest" ":Usuario" ":Ocupacion" "sosa:Observation" "-2a26198:16eefc17bd8:-7fd0" "sosa:Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" ":EstacionBicicleta" ":ObservacionEstacion" ":Bicicleta" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
-	"base:EstacionBicicleta" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" [ label = "rdfs:subClassOf" ];
-	"base:EstacionBicicleta" -> "http://www.w3.org/ns/sosa/Sensor" [ label = "rdfs:subClassOf" ];
-	"base:Usuario" -> "-15ebde5b:16eef898c68:-7fd0" [ label = "rdfs:subClassOf" ];
-	"base:Bicicleta" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
-	"base:PuntoPaso" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
-	"base:Ocupacion" -> "http://www.w3.org/ns/sosa/FeatureOfInterest" [ label = "rdfs:subClassOf" ];
-	"base:PropiedadEstacion" -> "http://www.w3.org/ns/sosa/ObservableProperty" [ label = "rdfs:subClassOf" ];
-	"base:ObservacionEstacion" -> "http://www.w3.org/ns/sosa/Observation" [ label = "rdfs:subClassOf" ];
+	":EstacionBicicleta" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" [ label = "rdfs:subClassOf" ];
+	":EstacionBicicleta" -> "sosa:Sensor" [ label = "rdfs:subClassOf" ];
+	":Usuario" -> "-2a26198:16eefc17bd8:-7fd0" [ label = "rdfs:subClassOf" ];
+	":Bicicleta" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
+	":PuntoPaso" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
+	":Ocupacion" -> "sosa:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	":PropiedadEstacion" -> "sosa:ObservableProperty" [ label = "rdfs:subClassOf" ];
+	":ObservacionEstacion" -> "sosa:Observation" [ label = "rdfs:subClassOf" ];
 
 }

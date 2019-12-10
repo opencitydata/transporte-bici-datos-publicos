@@ -1,28 +1,28 @@
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://www.w3.org/2002/07/owl#imports> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "Red.es"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/creator> "Francisco Yedro Martinez (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre el sistema de bicicleta pública"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of data about the public bicycle system"@en .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/terms/issued> "2019-11-07"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/vocab/vann/preferredNamespacePrefix> "esbici" .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   \nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"@es .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> <http://www.w3.org/2002/07/owl#versionInfo> "Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "Red.es"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/creator> "Francisco Yedro (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/identifier> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre el sistema de bicicleta pública"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of data about the public bicycle system"@en .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/terms/issued> "2019-11-07"@es .
+<http://www.w3.org/ns/sosa/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
+<http://www.w3.org/ns/sosa/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "esbici" .
+<http://www.w3.org/ns/sosa/> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#> .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   \nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"@es .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/2002/07/owl#versionInfo> "Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
 # 
 # 
 # #################################################################
@@ -56,12 +56,6 @@
 # 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -329,7 +323,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Sólamente año de nacimiento, no se incluye la fecha completa."@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Solamente el año, no la fecha completa"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Año de nacimiento"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Year of birth"@en .
