@@ -1,11 +1,11 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "base:PropiedadEstacion" "base:PuntoPaso" "http://www.w3.org/ns/sosa/ObservableProperty" "http://www.w3.org/ns/sosa/FeatureOfInterest" "base:Usuario" "base:Ocupacion" "-15ebde5b:16eef898c68:-7fd0" "http://www.w3.org/ns/sosa/Observation" "http://www.w3.org/ns/sosa/Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "base:EstacionBicicleta" "base:ObservacionEstacion" "base:Bicicleta" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
+node [shape = rectangle, color="black"]; "base:PropiedadEstacion" "base:PuntoPaso" "http://www.w3.org/ns/sosa/ObservableProperty" "http://www.w3.org/ns/sosa/FeatureOfInterest" "base:Usuario" "base:Ocupacion" "http://www.w3.org/ns/sosa/Observation" "http://www.w3.org/ns/sosa/Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "base:EstacionBicicleta" "base:ObservacionEstacion" "base:Bicicleta" "-724a97c2:16eefa0e71e:-7fd0" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	"base:EstacionBicicleta" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" [ label = "rdfs:subClassOf" ];
 	"base:EstacionBicicleta" -> "http://www.w3.org/ns/sosa/Sensor" [ label = "rdfs:subClassOf" ];
-	"base:Usuario" -> "-15ebde5b:16eef898c68:-7fd0" [ label = "rdfs:subClassOf" ];
+	"base:Usuario" -> "-724a97c2:16eefa0e71e:-7fd0" [ label = "rdfs:subClassOf" ];
 	"base:Bicicleta" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	"base:PuntoPaso" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	"base:Ocupacion" -> "http://www.w3.org/ns/sosa/FeatureOfInterest" [ label = "rdfs:subClassOf" ];
