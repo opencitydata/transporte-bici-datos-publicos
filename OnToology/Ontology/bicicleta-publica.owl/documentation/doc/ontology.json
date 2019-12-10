@@ -813,6 +813,84 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Cada anclaje puede tener tener estado libre, ocupado o inactivo"
+  }, {
+    "@language" : "en",
+    "@value" : "Each dock may have three states, free, busy or inactive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dock status"
+  }, {
+    "@language" : "es",
+    "@value" : "estado de anclaje"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada"
+  }, {
+    "@language" : "en",
+    "@value" : "Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bicycle status"
+  }, {
+    "@language" : "es",
+    "@value" : "estado de bicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Cada estación puede tener tener estado operativa y no operativa"
+  }, {
+    "@language" : "en",
+    "@value" : "Each station may have two status, operational and non-operational"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "estado de estación"
+  }, {
+    "@language" : "en",
+    "@value" : "station status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -1102,7 +1180,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -1118,7 +1196,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1148,84 +1226,6 @@
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Cada anclaje puede tener tener estado libre, ocupado o inactivo"
-  }, {
-    "@language" : "en",
-    "@value" : "Each dock may have three states, free, busy or inactive"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "dock status"
-  }, {
-    "@language" : "es",
-    "@value" : "estado de anclaje"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid5"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada"
-  }, {
-    "@language" : "en",
-    "@value" : "Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "bicycle status"
-  }, {
-    "@language" : "es",
-    "@value" : "estado de bicicleta"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid9"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Cada estación puede tener tener estado operativa y no operativa"
-  }, {
-    "@language" : "en",
-    "@value" : "Each station may have two status, operational and non-operational"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "estado de estación"
-  }, {
-    "@language" : "en",
-    "@value" : "station status"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid13"
-  } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
@@ -1377,7 +1377,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   \nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"
+    "@value" : "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.\nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://www.w3.org/ns/sosa/"

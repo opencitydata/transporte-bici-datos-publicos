@@ -35,7 +35,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <vann:preferredNamespacePrefix>esbici</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#"/>
-        <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
+        <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.
 En esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019</rdfs:comment>
         <owl:versionInfo>Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.</owl:versionInfo>
     </owl:Ontology>
@@ -170,6 +170,81 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     
 
 
+    <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje">
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Cada anclaje puede tener tener estado libre, ocupado o inactivo</rdfs:comment>
+        <rdfs:comment xml:lang="en">Each dock may have three states, free, busy or inactive</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <rdfs:label xml:lang="en">dock status</rdfs:label>
+        <rdfs:label xml:lang="es">estado de anclaje</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta">
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada</rdfs:comment>
+        <rdfs:comment xml:lang="en">Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <rdfs:label xml:lang="en">bicycle status</rdfs:label>
+        <rdfs:label xml:lang="es">estado de bicicleta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion">
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Cada estación puede tener tener estado operativa y no operativa</rdfs:comment>
+        <rdfs:comment xml:lang="en">Each station may have two status, operational and non-operational</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <rdfs:label xml:lang="es">estado de estación</rdfs:label>
+        <rdfs:label xml:lang="en">station status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto -->
 
 
@@ -293,81 +368,6 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje -->
-
-
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje">
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:comment xml:lang="es">Cada anclaje puede tener tener estado libre, ocupado o inactivo</rdfs:comment>
-        <rdfs:comment xml:lang="en">Each dock may have three states, free, busy or inactive</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
-        <rdfs:label xml:lang="en">dock status</rdfs:label>
-        <rdfs:label xml:lang="es">estado de anclaje</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta -->
-
-
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta">
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:comment xml:lang="es">Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada</rdfs:comment>
-        <rdfs:comment xml:lang="en">Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
-        <rdfs:label xml:lang="en">bicycle status</rdfs:label>
-        <rdfs:label xml:lang="es">estado de bicicleta</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion -->
-
-
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion">
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:comment xml:lang="es">Cada estación puede tener tener estado operativa y no operativa</rdfs:comment>
-        <rdfs:comment xml:lang="en">Each station may have two status, operational and non-operational</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
-        <rdfs:label xml:lang="es">estado de estación</rdfs:label>
-        <rdfs:label xml:lang="en">station status</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -540,7 +540,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal"/>
         <rdfs:label xml:lang="es">fecha de alta</rdfs:label>
         <rdfs:label xml:lang="en">start date</rdfs:label>
     </owl:DatatypeProperty>
@@ -552,7 +552,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal"/>
         <rdfs:label xml:lang="en">end date</rdfs:label>
         <rdfs:label xml:lang="es">fecha de baja</rdfs:label>
     </owl:DatatypeProperty>
