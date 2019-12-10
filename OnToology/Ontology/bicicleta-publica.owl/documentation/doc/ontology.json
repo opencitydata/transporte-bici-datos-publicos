@@ -791,7 +791,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Only year"
+    "@value" : "Only year, not complete date of birth"
   }, {
     "@language" : "es",
     "@value" : "Solamente el año, no la fecha completa"

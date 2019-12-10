@@ -323,7 +323,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Only year"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Only year, not complete date of birth"@en .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Solamente el año, no la fecha completa"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Año de nacimiento"@es .
