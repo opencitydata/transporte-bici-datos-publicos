@@ -68,4 +68,18 @@ Finalmente, se representa una instancia de [esbici:Bicicleta](#Bicicleta) para l
   esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta/ocupada&gt; .
 </pre>
 
+
+<span class="markdown">
+Para representar una observación en una estación se ha creado una instancia de la clase [esbici:ObservacionEstacion](#ObservacionEstacion) de la cual se ha obtenido el resultado de dicha observación ([sosa:hasSimpleResult](http://www.w3.org/ns/sosa/hasSimpleResult)), la hora de dicha observación [sosa:resultTime](http://www.w3.org/ns/sosa/resultTime), el sensor que realizó dicha observación [sosa:madeBySensor](http://www.w3.org/ns/sosa/madeBySensor) y la propiedad que se ha observado [sosa:sosa:observedProperty](http://www.w3.org/ns/sosa/sosa:observedProperty), en este caso, los anclajes ocupados de una estación.
+</span>
+
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/ObservacionEstacion/7g0l23012d77717ea2232760a2de2d36&gt; a sosa:Observation, esbici:ObservacionEstacion ;
+  sosa:hasSimpleResult “12” ;
+  sosa:resultTime "2019-12-10T13:00:00"^^xsd:dateTime ;
+  sosa:madeBySensor &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt;
+  sosa:observedProperty &lt;http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados&gt .
+</pre>
+
+
 </html>
