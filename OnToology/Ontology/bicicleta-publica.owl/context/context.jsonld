@@ -84,7 +84,7 @@
       "@type" : "@id"
     },
     "estadoEstacion" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion",
       "@type" : "@id"
     },
     "name" : {
@@ -131,7 +131,7 @@
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "estadoBicicleta" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta",
       "@type" : "@id"
     },
     "hasFeatureOfInterest" : {
@@ -139,7 +139,7 @@
       "@type" : "@id"
     },
     "estadoAnclaje" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje",
       "@type" : "@id"
     },
     "observedProperty" : {
