@@ -21,7 +21,7 @@
 <http://www.w3.org/ns/sosa/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> .
 <http://www.w3.org/ns/sosa/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "esbici" .
 <http://www.w3.org/ns/sosa/> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#> .
-<http://www.w3.org/ns/sosa/> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   \nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"@es .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.\nEn esta versión se han incluido clases y propiedades de acuerdo a los requisitos y glosario de conceptos propuestos en la reunión del 07/11/2019"@es .
 <http://www.w3.org/ns/sosa/> <http://www.w3.org/2002/07/owl#versionInfo> "Esta es la versión inicial de la ontología de Bicicleta Pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
 # 
 # 
@@ -96,6 +96,69 @@ _:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/s
 _:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/linked-data/sdmx/2009/code#sex> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada anclaje puede tener tener estado libre, ocupado o inactivo"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Each dock may have three states, free, busy or inactive"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#label> "dock status"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#label> "estado de anclaje"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid11 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#comment> "Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied."@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "bicycle status"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "estado de bicicleta"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid15 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada estación puede tener tener estado operativa y no operativa"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Each station may have two status, operational and non-operational"@en .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#label> "estado de estación"@es .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#label> "station status"@en .
 # 
 # http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -178,69 +241,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
-_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada anclaje puede tener tener estado libre, ocupado o inactivo"@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Each dock may have three states, free, busy or inactive"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#label> "dock status"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoAnclaje> <http://www.w3.org/2000/01/rdf-schema#label> "estado de anclaje"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
-_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid11 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada bicicleta puede tener tener estado abandonada, libre, en-reparacion, en-reserva, excluida y ocupada"@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#comment> "Each bicycle may have status abandoned, free, in-repair, in-reserve, excluded and occupied."@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "bicycle status"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "estado de bicicleta"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
-_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid15 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada estación puede tener tener estado operativa y no operativa"@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Each station may have two status, operational and non-operational"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#label> "estado de estación"@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte#estadoEstacion> <http://www.w3.org/2000/01/rdf-schema#label> "station status"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#inScheme
 <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -358,14 +358,14 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de alta"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta> <http://www.w3.org/2000/01/rdf-schema#label> "start date"@en .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/2000/01/rdf-schema#label> "end date"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de baja"@es .
 # 
@@ -667,25 +667,21 @@ _:genid56 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados> <http://www.w3.org/2000/01/rdf-schema#label> "anclajes ocupados"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados> <http://www.w3.org/2000/01/rdf-schema#label> "no-available docks"@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tiene-genero
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tiene-genero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tiene-genero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-# 
 # http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 # 
 # http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
