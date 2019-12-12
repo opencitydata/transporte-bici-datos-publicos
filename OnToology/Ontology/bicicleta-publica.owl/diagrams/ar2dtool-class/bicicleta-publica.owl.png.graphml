@@ -64,109 +64,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="650.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_dc:identifier2" source="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" target="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dc:identifier</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_https://creativecommons.org/licenses/by/4.0">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://creativecommons.org/licenses/by/4.0</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_dcterms:license3" source="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" target="nid_https://creativecommons.org/licenses/by/4.0">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:license</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:versionIRI4" source="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" target="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:versionIRI</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="50.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_vann:preferredNamespaceUri5" source="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" target="nid_base:">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">vann:preferredNamespaceUri</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_sosa:">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="50.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">sosa:</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:imports6" source="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" target="nid_sosa:">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:imports</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_sosa:madeBySensor">
          <data key="d0">
             <y:ShapeNode>
@@ -191,7 +88,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes7" source="nid_sosa:madeBySensor" target="nid_sosa:Sensor">
+    <edge id="eid_schema:rangeIncludes2" source="nid_sosa:madeBySensor" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -202,7 +99,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes8" source="nid_sosa:madeBySensor" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes3" source="nid_sosa:madeBySensor" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -237,7 +134,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes9" source="nid_sosa:madeByActuator" target="nid_sosa:Actuator">
+    <edge id="eid_schema:rangeIncludes4" source="nid_sosa:madeByActuator" target="nid_sosa:Actuator">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -260,7 +157,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes10" source="nid_sosa:madeByActuator" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes5" source="nid_sosa:madeByActuator" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -295,7 +192,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes11" source="nid_sosa:hosts" target="nid_sosa:Platform">
+    <edge id="eid_schema:rangeIncludes6" source="nid_sosa:hosts" target="nid_sosa:Platform">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -306,7 +203,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes12" source="nid_sosa:hosts" target="nid_sosa:Actuator">
+    <edge id="eid_schema:rangeIncludes7" source="nid_sosa:hosts" target="nid_sosa:Actuator">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -329,7 +226,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes13" source="nid_sosa:hosts" target="nid_sosa:Sampler">
+    <edge id="eid_schema:rangeIncludes8" source="nid_sosa:hosts" target="nid_sosa:Sampler">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -340,7 +237,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes14" source="nid_sosa:hosts" target="nid_sosa:Sensor">
+    <edge id="eid_schema:rangeIncludes9" source="nid_sosa:hosts" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -351,7 +248,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes15" source="nid_sosa:hosts" target="nid_sosa:Platform">
+    <edge id="eid_schema:domainIncludes10" source="nid_sosa:hosts" target="nid_sosa:Platform">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -374,7 +271,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes16" source="nid_sosa:isObservedBy" target="nid_sosa:Sensor">
+    <edge id="eid_schema:rangeIncludes11" source="nid_sosa:isObservedBy" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -385,7 +282,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes17" source="nid_sosa:isObservedBy" target="nid_sosa:ObservableProperty">
+    <edge id="eid_schema:domainIncludes12" source="nid_sosa:isObservedBy" target="nid_sosa:ObservableProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -408,7 +305,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes18" source="nid_sosa:madeActuation" target="nid_sosa:Actuation">
+    <edge id="eid_schema:rangeIncludes13" source="nid_sosa:madeActuation" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -419,7 +316,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes19" source="nid_sosa:madeActuation" target="nid_sosa:Actuator">
+    <edge id="eid_schema:domainIncludes14" source="nid_sosa:madeActuation" target="nid_sosa:Actuator">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -454,7 +351,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes20" source="nid_sosa:phenomenonTime" target="nid_time:TemporalEntity">
+    <edge id="eid_schema:rangeIncludes15" source="nid_sosa:phenomenonTime" target="nid_time:TemporalEntity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -477,7 +374,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes21" source="nid_sosa:phenomenonTime" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes16" source="nid_sosa:phenomenonTime" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -488,7 +385,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes22" source="nid_sosa:phenomenonTime" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes17" source="nid_sosa:phenomenonTime" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -499,7 +396,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes23" source="nid_sosa:phenomenonTime" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes18" source="nid_sosa:phenomenonTime" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -522,19 +419,19 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento">
+      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="880.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_skos:inScheme24" source="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-equipamiento">
+    <edge id="eid_skos:inScheme19" source="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -557,7 +454,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes25" source="nid_sosa:hasResult" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes20" source="nid_sosa:hasResult" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -568,7 +465,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes26" source="nid_sosa:hasResult" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes21" source="nid_sosa:hasResult" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -579,7 +476,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes27" source="nid_sosa:hasResult" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes22" source="nid_sosa:hasResult" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -602,7 +499,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes28" source="nid_sosa:hasResult" target="nid_sosa:Result">
+    <edge id="eid_schema:rangeIncludes23" source="nid_sosa:hasResult" target="nid_sosa:Result">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -625,7 +522,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes29" source="nid_sosa:hasResult" target="nid_sosa:Sample">
+    <edge id="eid_schema:rangeIncludes24" source="nid_sosa:hasResult" target="nid_sosa:Sample">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -648,7 +545,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes30" source="nid_sosa:isActedOnBy" target="nid_sosa:Actuation">
+    <edge id="eid_schema:rangeIncludes25" source="nid_sosa:isActedOnBy" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -671,7 +568,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes31" source="nid_sosa:isActedOnBy" target="nid_sosa:ActuatableProperty">
+    <edge id="eid_schema:domainIncludes26" source="nid_sosa:isActedOnBy" target="nid_sosa:ActuatableProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -706,7 +603,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:disjointWith32" source="nid_skos:Concept" target="nid_skos:ConceptScheme">
+    <edge id="eid_owl:disjointWith27" source="nid_skos:Concept" target="nid_skos:ConceptScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -729,7 +626,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes33" source="nid_sosa:madeSampling" target="nid_sosa:Sampling">
+    <edge id="eid_schema:rangeIncludes28" source="nid_sosa:madeSampling" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -740,7 +637,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes34" source="nid_sosa:madeSampling" target="nid_sosa:Sampler">
+    <edge id="eid_schema:domainIncludes29" source="nid_sosa:madeSampling" target="nid_sosa:Sampler">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -763,7 +660,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes35" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes30" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -786,7 +683,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes36" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:FeatureOfInterest">
+    <edge id="eid_schema:rangeIncludes31" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:FeatureOfInterest">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -797,7 +694,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes37" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes32" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -808,7 +705,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes38" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes33" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -819,7 +716,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes39" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Sample">
+    <edge id="eid_schema:rangeIncludes34" source="nid_sosa:hasFeatureOfInterest" target="nid_sosa:Sample">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -842,7 +739,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes40" source="nid_sosa:isResultOf" target="nid_sosa:Sample">
+    <edge id="eid_schema:domainIncludes35" source="nid_sosa:isResultOf" target="nid_sosa:Sample">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -853,7 +750,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes41" source="nid_sosa:isResultOf" target="nid_sosa:Actuation">
+    <edge id="eid_schema:rangeIncludes36" source="nid_sosa:isResultOf" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -864,7 +761,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes42" source="nid_sosa:isResultOf" target="nid_sosa:Observation">
+    <edge id="eid_schema:rangeIncludes37" source="nid_sosa:isResultOf" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -875,7 +772,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes43" source="nid_sosa:isResultOf" target="nid_sosa:Sampling">
+    <edge id="eid_schema:rangeIncludes38" source="nid_sosa:isResultOf" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -886,7 +783,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes44" source="nid_sosa:isResultOf" target="nid_sosa:Result">
+    <edge id="eid_schema:domainIncludes39" source="nid_sosa:isResultOf" target="nid_sosa:Result">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -909,7 +806,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes45" source="nid_sosa:isSampleOf" target="nid_sosa:FeatureOfInterest">
+    <edge id="eid_schema:rangeIncludes40" source="nid_sosa:isSampleOf" target="nid_sosa:FeatureOfInterest">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -920,7 +817,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes46" source="nid_sosa:isSampleOf" target="nid_sosa:Sample">
+    <edge id="eid_schema:domainIncludes41" source="nid_sosa:isSampleOf" target="nid_sosa:Sample">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -943,7 +840,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes47" source="nid_sosa:hasSimpleResult" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes42" source="nid_sosa:hasSimpleResult" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -954,7 +851,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes48" source="nid_sosa:hasSimpleResult" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes43" source="nid_sosa:hasSimpleResult" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -965,7 +862,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes49" source="nid_sosa:hasSimpleResult" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes44" source="nid_sosa:hasSimpleResult" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -988,7 +885,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes50" source="nid_sosa:madeObservation" target="nid_sosa:Observation">
+    <edge id="eid_schema:rangeIncludes45" source="nid_sosa:madeObservation" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -999,7 +896,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes51" source="nid_sosa:madeObservation" target="nid_sosa:Sensor">
+    <edge id="eid_schema:domainIncludes46" source="nid_sosa:madeObservation" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1022,7 +919,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:domainIncludes52" source="nid_sosa:resultTime" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes47" source="nid_sosa:resultTime" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1033,7 +930,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes53" source="nid_sosa:resultTime" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes48" source="nid_sosa:resultTime" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1044,7 +941,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes54" source="nid_sosa:resultTime" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes49" source="nid_sosa:resultTime" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1067,7 +964,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes55" source="nid_sosa:isHostedBy" target="nid_sosa:Platform">
+    <edge id="eid_schema:rangeIncludes50" source="nid_sosa:isHostedBy" target="nid_sosa:Platform">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1078,7 +975,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes56" source="nid_sosa:isHostedBy" target="nid_sosa:Platform">
+    <edge id="eid_schema:domainIncludes51" source="nid_sosa:isHostedBy" target="nid_sosa:Platform">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1089,7 +986,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes57" source="nid_sosa:isHostedBy" target="nid_sosa:Sampler">
+    <edge id="eid_schema:domainIncludes52" source="nid_sosa:isHostedBy" target="nid_sosa:Sampler">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1100,7 +997,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes58" source="nid_sosa:isHostedBy" target="nid_sosa:Sensor">
+    <edge id="eid_schema:domainIncludes53" source="nid_sosa:isHostedBy" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1111,7 +1008,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes59" source="nid_sosa:isHostedBy" target="nid_sosa:Actuator">
+    <edge id="eid_schema:domainIncludes54" source="nid_sosa:isHostedBy" target="nid_sosa:Actuator">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1134,19 +1031,19 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fe9">
+      <node id="nid_35c2888e:16efaae1ecb:-7fe6">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fe9</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fe6</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest60" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fe9">
+    <edge id="eid_rdf:rest55" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fe6">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1157,7 +1054,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty61" source="nid_NULL" target="nid_sosa:observedProperty">
+    <edge id="eid_owl:onProperty56" source="nid_NULL" target="nid_sosa:observedProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1168,19 +1065,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fcc">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff9">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fcc</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff9</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest62" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fcc">
+    <edge id="eid_rdf:rest57" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ff9">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1203,7 +1100,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty63" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja">
+    <edge id="eid_owl:onProperty58" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1214,19 +1111,42 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneAsociadoAnclaje">
+      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="760.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneAsociadoAnclaje</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty64" source="nid_NULL" target="nid_base:tieneAsociadoAnclaje">
+    <edge id="eid_owl:hasValue59" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:tieneAsociadoAnclaje">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneAsociadoAnclaje</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:onProperty60" source="nid_NULL" target="nid_:tieneAsociadoAnclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1237,42 +1157,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff9">
+      <node id="nid_:EstacionBicicleta">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff9</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:EstacionBicicleta</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest65" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ff9">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:EstacionBicicleta">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="220.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:EstacionBicicleta</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:allValuesFrom66" source="nid_NULL" target="nid_base:EstacionBicicleta">
+    <edge id="eid_owl:allValuesFrom61" source="nid_NULL" target="nid_:EstacionBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1295,7 +1192,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty67" source="nid_NULL" target="nid_dcterms:identifier">
+    <edge id="eid_owl:onProperty62" source="nid_NULL" target="nid_dcterms:identifier">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1306,58 +1203,12 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff3">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff3</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:intersectionOf68" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ff3">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_rdf:first69" source="nid_NULL" target="nid_skos:Concept">
+    <edge id="eid_rdf:first63" source="nid_NULL" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:orden">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:orden</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty70" source="nid_NULL" target="nid_base:orden">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1375,7 +1226,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty71" source="nid_NULL" target="nid_https://schema.org/address">
+    <edge id="eid_owl:onProperty64" source="nid_NULL" target="nid_https://schema.org/address">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1386,19 +1237,42 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ffb">
+      <node id="nid_:orden">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ffb</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:orden</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:intersectionOf72" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ffb">
+    <edge id="eid_owl:onProperty65" source="nid_NULL" target="nid_:orden">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_35c2888e:16efaae1ecb:-7ff7">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff7</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:intersectionOf66" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ff7">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1421,7 +1295,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom73" source="nid_NULL" target="nid_xsd:date">
+    <edge id="eid_owl:allValuesFrom67" source="nid_NULL" target="nid_xsd:date">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1444,7 +1318,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty74" source="nid_NULL" target="nid_sosa:observes">
+    <edge id="eid_owl:onProperty68" source="nid_NULL" target="nid_sosa:observes">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1455,19 +1329,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:anioNacimiento">
+      <node id="nid_:anioNacimiento">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="150.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:anioNacimiento</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:anioNacimiento</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty75" source="nid_NULL" target="nid_base:anioNacimiento">
+    <edge id="eid_owl:onProperty69" source="nid_NULL" target="nid_:anioNacimiento">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1478,19 +1352,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:Anclaje">
+      <node id="nid_:Anclaje">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="80.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Anclaje</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Anclaje</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom76" source="nid_NULL" target="nid_base:Anclaje">
+    <edge id="eid_owl:allValuesFrom70" source="nid_NULL" target="nid_:Anclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1513,7 +1387,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty77" source="nid_NULL" target="nid_https://schema.org/name">
+    <edge id="eid_owl:onProperty71" source="nid_NULL" target="nid_https://schema.org/name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1536,7 +1410,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty78" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta">
+    <edge id="eid_owl:onProperty72" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1559,7 +1433,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom79" source="nid_NULL" target="nid_xsd:string">
+    <edge id="eid_owl:allValuesFrom73" source="nid_NULL" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1570,19 +1444,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:PuntoPaso">
+      <node id="nid_:PuntoPaso">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:PuntoPaso</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:PuntoPaso</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first80" source="nid_NULL" target="nid_base:PuntoPaso">
+    <edge id="eid_rdf:first74" source="nid_NULL" target="nid_:PuntoPaso">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1593,19 +1467,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneAnclajeDestino">
+      <node id="nid_:tieneAnclajeDestino">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="240.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneAnclajeDestino</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneAnclajeDestino</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty81" source="nid_NULL" target="nid_base:tieneAnclajeDestino">
+    <edge id="eid_owl:onProperty75" source="nid_NULL" target="nid_:tieneAnclajeDestino">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1628,7 +1502,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty82" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento">
+    <edge id="eid_owl:onProperty76" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1639,7 +1513,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first83" source="nid_NULL" target="nid_base:EstacionBicicleta">
+    <edge id="eid_rdf:first77" source="nid_NULL" target="nid_:EstacionBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1650,7 +1524,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:hasValue84" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas">
+      <node id="nid_35c2888e:16efaae1ecb:-7feb">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7feb</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:unionOf78" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7feb">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:unionOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:hasValue79" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1661,24 +1558,70 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff7">
+      <node id="nid_35c2888e:16efaae1ecb:-7fef">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff7</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fef</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:intersectionOf85" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ff7">
+    <edge id="eid_owl:intersectionOf80" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fef">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_35c2888e:16efaae1ecb:-7fed">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fed</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest81" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fed">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_35c2888e:16efaae1ecb:-7fe8">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fe8</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest82" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fe8">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1696,7 +1639,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onDataRange86" source="nid_NULL" target="nid_xsd:integer">
+    <edge id="eid_owl:onDataRange83" source="nid_NULL" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1719,7 +1662,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onDataRange87" source="nid_NULL" target="nid_xsd:dateTime">
+    <edge id="eid_owl:onDataRange84" source="nid_NULL" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1730,42 +1673,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fe8">
+      <node id="nid_:Bicicleta">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fe8</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Bicicleta</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest88" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fe8">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:Bicicleta">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Bicicleta</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onClass89" source="nid_NULL" target="nid_base:Bicicleta">
+    <edge id="eid_owl:onClass85" source="nid_NULL" target="nid_:Bicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1776,19 +1696,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:Ocupacion">
+      <node id="nid_:Ocupacion">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Ocupacion</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Ocupacion</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom90" source="nid_NULL" target="nid_base:Ocupacion">
+    <edge id="eid_owl:allValuesFrom86" source="nid_NULL" target="nid_:Ocupacion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1799,19 +1719,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff1">
+      <node id="nid_35c2888e:16efaae1ecb:-7fea">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff1</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fea</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest91" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ff1">
+    <edge id="eid_rdf:rest87" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1822,42 +1742,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje">
+      <node id="nid_:tieneAsociadoBicicleta">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="900.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="230.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneAsociadoBicicleta</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:hasValue92" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-anclaje">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:tieneAsociadoBicicleta">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneAsociadoBicicleta</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty93" source="nid_NULL" target="nid_base:tieneAsociadoBicicleta">
+    <edge id="eid_owl:onProperty88" source="nid_NULL" target="nid_:tieneAsociadoBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1868,7 +1765,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first94" source="nid_NULL" target="nid_base:Anclaje">
+    <edge id="eid_rdf:first89" source="nid_NULL" target="nid_:Anclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1879,7 +1776,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty95" source="nid_NULL" target="nid_sosa:hasFeatureOfInterest">
+    <edge id="eid_owl:onProperty90" source="nid_NULL" target="nid_sosa:hasFeatureOfInterest">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1890,19 +1787,42 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:PropiedadEstacion">
+      <node id="nid_35c2888e:16efaae1ecb:-7ffb">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="220.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:PropiedadEstacion</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ffb</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom96" source="nid_NULL" target="nid_base:PropiedadEstacion">
+    <edge id="eid_owl:intersectionOf91" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ffb">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:PropiedadEstacion">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:PropiedadEstacion</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:allValuesFrom92" source="nid_NULL" target="nid_:PropiedadEstacion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1913,7 +1833,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:allValuesFrom97" source="nid_NULL" target="nid_skos:Concept">
+    <edge id="eid_owl:allValuesFrom93" source="nid_NULL" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1924,30 +1844,53 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff5">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff5</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:hasValue98" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-estacion">
+    <edge id="eid_rdf:rest94" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ff5">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first99" source="nid_NULL" target="nid_base:Bicicleta">
+      <node id="nid_35c2888e:16efaae1ecb:-7fcc">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fcc</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest95" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fcc">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdf:first96" source="nid_NULL" target="nid_:Bicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1970,7 +1913,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest100" source="nid_NULL" target="nid_rdf:nil">
+    <edge id="eid_rdf:rest97" source="nid_NULL" target="nid_rdf:nil">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1981,19 +1924,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:Trayecto">
+      <node id="nid_:Trayecto">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Trayecto</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Trayecto</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first101" source="nid_NULL" target="nid_base:Trayecto">
+    <edge id="eid_rdf:first98" source="nid_NULL" target="nid_:Trayecto">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2004,42 +1947,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fe6">
+      <node id="nid_35c2888e:16efaae1ecb:-7fce">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fe6</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fce</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest102" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fe6">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fef">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fef</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:intersectionOf103" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fef">
+    <edge id="eid_owl:intersectionOf99" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fce">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2050,30 +1970,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="920.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:hasValue104" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/tipo-estado-bicicleta">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:allValuesFrom105" source="nid_NULL" target="nid_base:Trayecto">
+    <edge id="eid_owl:allValuesFrom100" source="nid_NULL" target="nid_:Trayecto">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2084,19 +1981,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneEstacionDestino">
+      <node id="nid_:tieneEstacionDestino">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneEstacionDestino</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneEstacionDestino</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty106" source="nid_NULL" target="nid_base:tieneEstacionDestino">
+    <edge id="eid_owl:onProperty101" source="nid_NULL" target="nid_:tieneEstacionDestino">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2107,19 +2004,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:fechaPaso">
+      <node id="nid_:fechaPaso">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:fechaPaso</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:fechaPaso</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty107" source="nid_NULL" target="nid_base:fechaPaso">
+    <edge id="eid_owl:onProperty102" source="nid_NULL" target="nid_:fechaPaso">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2130,19 +2027,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:matricula">
+      <node id="nid_:matricula">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:matricula</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:matricula</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty108" source="nid_NULL" target="nid_base:matricula">
+    <edge id="eid_owl:onProperty103" source="nid_NULL" target="nid_:matricula">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2153,7 +2050,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty109" source="nid_NULL" target="nid_sosa:madeBySensor">
+    <edge id="eid_owl:onProperty104" source="nid_NULL" target="nid_sosa:madeBySensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2164,42 +2061,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7feb">
+      <node id="nid_35c2888e:16efaae1ecb:-7fe7">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7feb</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fe7</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:unionOf110" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7feb">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:unionOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fe7">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fe7</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest111" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fe7">
+    <edge id="eid_rdf:rest105" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fe7">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2210,53 +2084,42 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneEstacionOrigen">
+      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="240.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="770.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneEstacionOrigen</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty112" source="nid_NULL" target="nid_base:tieneEstacionOrigen">
+    <edge id="eid_owl:hasValue106" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:someValuesFrom113" source="nid_NULL" target="nid_base:Anclaje">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_base:Usuario">
+      <node id="nid_:Usuario">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="80.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Usuario</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Usuario</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first114" source="nid_NULL" target="nid_base:Usuario">
+    <edge id="eid_rdf:first107" source="nid_NULL" target="nid_:Usuario">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2267,7 +2130,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:allValuesFrom115" source="nid_NULL" target="nid_xsd:dateTime">
+    <edge id="eid_owl:allValuesFrom108" source="nid_NULL" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2278,19 +2141,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneAnclajeOrigen">
+      <node id="nid_:tieneEstacionOrigen">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="230.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneAnclajeOrigen</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneEstacionOrigen</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty116" source="nid_NULL" target="nid_base:tieneAnclajeOrigen">
+    <edge id="eid_owl:onProperty109" source="nid_NULL" target="nid_:tieneEstacionOrigen">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2301,7 +2164,41 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onDataRange117" source="nid_NULL" target="nid_xsd:string">
+    <edge id="eid_owl:someValuesFrom110" source="nid_NULL" target="nid_:Anclaje">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:tieneAnclajeOrigen">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneAnclajeOrigen</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:onProperty111" source="nid_NULL" target="nid_:tieneAnclajeOrigen">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:onDataRange112" source="nid_NULL" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2312,7 +2209,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass118" source="nid_NULL" target="nid_skos:Concept">
+    <edge id="eid_owl:onClass113" source="nid_NULL" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2323,7 +2220,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:allValuesFrom119" source="nid_NULL" target="nid_base:PuntoPaso">
+    <edge id="eid_owl:allValuesFrom114" source="nid_NULL" target="nid_:PuntoPaso">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2346,53 +2243,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty120" source="nid_NULL" target="nid_schema:endDate">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fce">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fce</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:intersectionOf121" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fce">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_skos:inScheme">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">skos:inScheme</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty122" source="nid_NULL" target="nid_skos:inScheme">
+    <edge id="eid_owl:onProperty115" source="nid_NULL" target="nid_schema:endDate">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2415,7 +2266,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:hasValue123" source="nid_NULL" target="nid_http://purl.org/linked-data/sdmx/2009/code#sex">
+    <edge id="eid_owl:hasValue116" source="nid_NULL" target="nid_http://purl.org/linked-data/sdmx/2009/code#sex">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2426,24 +2277,70 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fed">
+      <node id="nid_skos:inScheme">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fed</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">skos:inScheme</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest124" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fed">
+    <edge id="eid_owl:onProperty117" source="nid_NULL" target="nid_skos:inScheme">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_35c2888e:16efaae1ecb:-7ff1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest118" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ff1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="750.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:hasValue119" source="nid_NULL" target="nid_http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:hasValue</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2461,7 +2358,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty125" source="nid_NULL" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
+    <edge id="eid_owl:onProperty120" source="nid_NULL" target="nid_http://purl.org/linked-data/sdmx/2009/dimension#sex">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2472,19 +2369,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:realizaTrayecto">
+      <node id="nid_:realizaTrayecto">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="160.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:realizaTrayecto</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:realizaTrayecto</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty126" source="nid_NULL" target="nid_base:realizaTrayecto">
+    <edge id="eid_owl:onProperty121" source="nid_NULL" target="nid_:realizaTrayecto">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2495,7 +2392,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass127" source="nid_NULL" target="nid_base:EstacionBicicleta">
+    <edge id="eid_owl:onClass122" source="nid_NULL" target="nid_:EstacionBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2506,19 +2403,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:tieneAsociadoPuntoDePaso">
+      <node id="nid_:tieneAsociadoPuntoDePaso">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="290.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:tieneAsociadoPuntoDePaso</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:tieneAsociadoPuntoDePaso</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty128" source="nid_NULL" target="nid_base:tieneAsociadoPuntoDePaso">
+    <edge id="eid_owl:onProperty123" source="nid_NULL" target="nid_:tieneAsociadoPuntoDePaso">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2529,19 +2426,42 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fea">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff3">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fea</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff3</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest129" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7fea">
+    <edge id="eid_owl:intersectionOf124" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7ff3">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_35c2888e:16efaae1ecb:-7fe9">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fe9</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest125" source="nid_NULL" target="nid_35c2888e:16efaae1ecb:-7fe9">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2564,35 +2484,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty130" source="nid_NULL" target="nid_schema:startDate">
+    <edge id="eid_owl:onProperty126" source="nid_NULL" target="nid_schema:startDate">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff5">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff5</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest131" source="nid_NULL" target="nid_-191ad6fb:16efa64dc51:-7ff5">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2610,7 +2507,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes132" source="nid_sosa:hasSample" target="nid_sosa:Sample">
+    <edge id="eid_schema:rangeIncludes127" source="nid_sosa:hasSample" target="nid_sosa:Sample">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2621,7 +2518,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes133" source="nid_sosa:hasSample" target="nid_sosa:FeatureOfInterest">
+    <edge id="eid_schema:domainIncludes128" source="nid_sosa:hasSample" target="nid_sosa:FeatureOfInterest">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2632,7 +2529,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:rangeIncludes134" source="nid_sosa:observes" target="nid_sosa:ObservableProperty">
+    <edge id="eid_schema:rangeIncludes129" source="nid_sosa:observes" target="nid_sosa:ObservableProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2643,7 +2540,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes135" source="nid_sosa:observes" target="nid_sosa:Sensor">
+    <edge id="eid_schema:domainIncludes130" source="nid_sosa:observes" target="nid_sosa:Sensor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2678,7 +2575,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes136" source="nid_sosa:usedProcedure" target="nid_sosa:Procedure">
+    <edge id="eid_schema:rangeIncludes131" source="nid_sosa:usedProcedure" target="nid_sosa:Procedure">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2689,7 +2586,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes137" source="nid_sosa:usedProcedure" target="nid_sosa:Sampling">
+    <edge id="eid_schema:domainIncludes132" source="nid_sosa:usedProcedure" target="nid_sosa:Sampling">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2700,7 +2597,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes138" source="nid_sosa:usedProcedure" target="nid_sosa:Observation">
+    <edge id="eid_schema:domainIncludes133" source="nid_sosa:usedProcedure" target="nid_sosa:Observation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2711,7 +2608,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes139" source="nid_sosa:usedProcedure" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes134" source="nid_sosa:usedProcedure" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2734,7 +2631,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_schema:rangeIncludes140" source="nid_sosa:actsOnProperty" target="nid_sosa:ActuatableProperty">
+    <edge id="eid_schema:rangeIncludes135" source="nid_sosa:actsOnProperty" target="nid_sosa:ActuatableProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2745,12 +2642,115 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:domainIncludes141" source="nid_sosa:actsOnProperty" target="nid_sosa:Actuation">
+    <edge id="eid_schema:domainIncludes136" source="nid_sosa:actsOnProperty" target="nid_sosa:Actuation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">schema:domainIncludes</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_sosa:">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="50.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">sosa:</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="10.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_vann:preferredNamespaceUri137" source="nid_sosa:" target="nid_:">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">vann:preferredNamespaceUri</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_https://creativecommons.org/licenses/by/4.0">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://creativecommons.org/licenses/by/4.0</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dcterms:license138" source="nid_sosa:" target="nid_https://creativecommons.org/licenses/by/4.0">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dcterms:license</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="650.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dc:identifier139" source="nid_sosa:" target="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dc:identifier</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:imports140" source="nid_sosa:" target="nid_sosa:">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:imports</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:versionIRI141" source="nid_sosa:" target="nid_http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:versionIRI</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2779,19 +2779,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_e7be3198e89dc9a2f4e44e16d340e4e8">
+      <node id="nid_c52fb3515ef7e684828fcca3971ee202">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">e7be3198e89dc9a2f4e44e16d340e4e8</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">c52fb3515ef7e684828fcca3971ee202</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:creator143" source="nid_sosa:" target="nid_e7be3198e89dc9a2f4e44e16d340e4e8">
+    <edge id="eid_dcterms:creator143" source="nid_sosa:" target="nid_c52fb3515ef7e684828fcca3971ee202">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2984,7 +2984,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:startDate154" source="nid_base:Trayecto" target="nid_xsd:dateTime">
+    <edge id="eid_schema:startDate154" source="nid_:Trayecto" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3030,68 +3030,68 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneEstacionOrigen156" source="nid_base:Trayecto" target="nid_base:EstacionBicicleta">
+    <edge id="eid_:tieneEstacionOrigen156" source="nid_:Trayecto" target="nid_:EstacionBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneEstacionOrigen</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneEstacionOrigen</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff8">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff8">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff8</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff8</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_base:estadoAnclaje157" source="nid_base:Anclaje" target="nid_-191ad6fb:16efa64dc51:-7ff8">
+    <edge id="eid_:estadoAnclaje157" source="nid_:Anclaje" target="nid_35c2888e:16efaae1ecb:-7ff8">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:estadoAnclaje</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:estadoAnclaje</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneAnclajeDestino158" source="nid_base:Trayecto" target="nid_base:Anclaje">
+    <edge id="eid_:tieneAnclajeDestino158" source="nid_:Trayecto" target="nid_:Anclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneAnclajeDestino</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneAnclajeDestino</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:matricula159" source="nid_base:Bicicleta" target="nid_xsd:string">
+    <edge id="eid_:matricula159" source="nid_:Bicicleta" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:matricula</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:matricula</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneAsociadoPuntoDePaso160" source="nid_base:Trayecto" target="nid_base:PuntoPaso">
+    <edge id="eid_:tieneAsociadoPuntoDePaso160" source="nid_:Trayecto" target="nid_:PuntoPaso">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneAsociadoPuntoDePaso</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneAsociadoPuntoDePaso</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -3108,12 +3108,12 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneAsociadoAnclaje162" source="nid_base:EstacionBicicleta" target="nid_base:Anclaje">
+    <edge id="eid_:tieneAsociadoAnclaje162" source="nid_:EstacionBicicleta" target="nid_:Anclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneAsociadoAnclaje</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneAsociadoAnclaje</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -3141,40 +3141,40 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneAsociadoBicicleta165" source="nid_base:Trayecto" target="nid_base:Bicicleta">
+    <edge id="eid_:tieneAsociadoBicicleta165" source="nid_:Trayecto" target="nid_:Bicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneAsociadoBicicleta</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneAsociadoBicicleta</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneAnclajeOrigen166" source="nid_base:Trayecto" target="nid_base:Anclaje">
+    <edge id="eid_:tieneAnclajeOrigen166" source="nid_:Trayecto" target="nid_:Anclaje">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneAnclajeOrigen</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneAnclajeOrigen</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:fechaPaso167" source="nid_base:PuntoPaso" target="nid_xsd:dateTime">
+    <edge id="eid_:fechaPaso167" source="nid_:PuntoPaso" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:fechaPaso</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:fechaPaso</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/address168" source="nid_base:EstacionBicicleta" target="nid_xsd:string">
+    <edge id="eid_https://schema.org/address168" source="nid_:EstacionBicicleta" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3185,19 +3185,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7fec">
+      <node id="nid_35c2888e:16efaae1ecb:-7fec">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7fec</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7fec</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_dcterms:identifier169" source="nid_-191ad6fb:16efa64dc51:-7fec" target="nid_owl:Thing">
+    <edge id="eid_dcterms:identifier169" source="nid_35c2888e:16efaae1ecb:-7fec" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3208,52 +3208,52 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff0">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff0">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff0</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff0</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_base:estadoEstacion170" source="nid_base:EstacionBicicleta" target="nid_-191ad6fb:16efa64dc51:-7ff0">
+    <edge id="eid_:estadoEstacion170" source="nid_:EstacionBicicleta" target="nid_35c2888e:16efaae1ecb:-7ff0">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:estadoEstacion</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:estadoEstacion</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:tieneEstacionDestino171" source="nid_base:Trayecto" target="nid_base:EstacionBicicleta">
+    <edge id="eid_:tieneEstacionDestino171" source="nid_:Trayecto" target="nid_:EstacionBicicleta">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:tieneEstacionDestino</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:tieneEstacionDestino</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:anioNacimiento172" source="nid_base:Usuario" target="nid_xsd:integer">
+    <edge id="eid_:anioNacimiento172" source="nid_:Usuario" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:anioNacimiento</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:anioNacimiento</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_schema:endDate173" source="nid_base:Trayecto" target="nid_xsd:dateTime">
+    <edge id="eid_schema:endDate173" source="nid_:Trayecto" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3275,19 +3275,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ffc">
+      <node id="nid_35c2888e:16efaae1ecb:-7ffc">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ffc</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ffc</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_http://purl.org/linked-data/sdmx/2009/dimension#sex175" source="nid_base:Usuario" target="nid_-191ad6fb:16efa64dc51:-7ffc">
+    <edge id="eid_http://purl.org/linked-data/sdmx/2009/dimension#sex175" source="nid_:Usuario" target="nid_35c2888e:16efaae1ecb:-7ffc">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3298,46 +3298,46 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-191ad6fb:16efa64dc51:-7ff4">
+      <node id="nid_35c2888e:16efaae1ecb:-7ff4">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-191ad6fb:16efa64dc51:-7ff4</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">35c2888e:16efaae1ecb:-7ff4</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_base:estadoBicicleta176" source="nid_base:Bicicleta" target="nid_-191ad6fb:16efa64dc51:-7ff4">
+    <edge id="eid_:estadoBicicleta176" source="nid_:Bicicleta" target="nid_35c2888e:16efaae1ecb:-7ff4">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:estadoBicicleta</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:estadoBicicleta</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:realizaTrayecto177" source="nid_base:Usuario" target="nid_base:Trayecto">
+    <edge id="eid_:realizaTrayecto177" source="nid_:Usuario" target="nid_:Trayecto">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:realizaTrayecto</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:realizaTrayecto</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_base:orden178" source="nid_base:PuntoPaso" target="nid_xsd:integer">
+    <edge id="eid_:orden178" source="nid_:PuntoPaso" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:orden</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">:orden</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
