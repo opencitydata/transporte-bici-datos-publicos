@@ -430,7 +430,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                                       :Sensor ,
                                                                                                       [ rdf:type owl:Restriction ;
                                                                                                         owl:onProperty <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje> ;
-                                                                                                        owl:someValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
+                                                                                                        owl:allValuesFrom <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje>
                                                                                                       ] ,
                                                                                                       [ rdf:type owl:Restriction ;
                                                                                                         owl:onProperty :observes ;

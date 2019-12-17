@@ -433,7 +433,7 @@ _:genid26 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje> .
-_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/observes> .
