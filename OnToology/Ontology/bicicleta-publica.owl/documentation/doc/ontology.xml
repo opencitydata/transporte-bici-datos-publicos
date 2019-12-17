@@ -181,7 +181,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -206,7 +206,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -231,7 +231,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1023,28 +1023,28 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
