@@ -23,7 +23,7 @@ El concepto principal de este módulo es el de [esbici:EstacionBicicleta](#Estac
 <span class="markdown">
   Con la finalidad de facilitar la comprensión del uso de algunas clases y propiedades de este vocabulario se proporcionarán a continuación algunos ejemplos.
 
-  En primer lugar para la representación de una estación de bicicleta se crea una instancia de la clase [esbici:EstacionBicicleta](#EstacionBicicleta) con las propiedades [dct:identifier](http://purl.org/dc/terms/identifier) (identificador de la estación), [schema:name](https://schema.org/name) (nombre de la estación), [esequip:fechaAlta](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta) (fecha de alta de la estación), [esequip:fechaBaja](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja) (fecha de baja de la estación) y [schema:address](https://schema.org/address) (dirección de la estación). Asimismo, se enlaza mediante la propiedad [esbici:estadoEstacion](#estadoEstacion) la estación con el concepto correspondiente de la taxonomía de estado de la estación, que para el caso del ejemplo se trata de una estación [esbici-kos:operativa](http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion/operativa). Finalmente, la estación se asocia a través de la propiedad [esbici:tieneAsociadoAnclaje](#tieneAsociadoAnclaje) con una instancia de [esbici:Anclaje](#Anclaje) que corresponde a uno e los anclajes de la estación y que tiene un [dct:identifier](http://purl.org/dc/terms/identifier) (identificador).
+  En primer lugar para la representación de una estación de bicicleta se crea una instancia de la clase [esbici:EstacionBicicleta](#EstacionBicicleta) con las propiedades [dct:identifier](http://purl.org/dc/terms/identifier) (identificador de la estación), [schema:name](https://schema.org/name) (nombre de la estación), [esequip:fechaAlta](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta) (fecha de alta de la estación), [esequip:fechaBaja](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja) (fecha de baja de la estación) y [schema:address](https://schema.org/address) (dirección de la estación). Asimismo, se enlaza mediante la propiedad [esbici:estadoEstacion](#estadoEstacion) la estación con el concepto correspondiente de la taxonomía de estado de la estación, que para el caso del ejemplo se trata de una estación [esbici-kos:operativa](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/operativa). Finalmente, la estación se asocia a través de la propiedad [esbici:tieneAsociadoAnclaje](#tieneAsociadoAnclaje) con una instancia de [esbici:Anclaje](#Anclaje) que corresponde a uno e los anclajes de la estación y que tiene un [dct:identifier](http://purl.org/dc/terms/identifier) (identificador).
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt; a esbici:EstacionBicicleta ;
@@ -31,17 +31,17 @@ El concepto principal de este módulo es el de [esbici:EstacionBicicleta](#Estac
   esequip:nombre "Puerta del Sol A"@es ;
   esequip:fechaAlta "2014-06-23"^^xsd:date ;
   schema:address "PUERTA DEL SOL, PLAZA, DE LA, 1 B"@es ;
-  esbici:estadoEstacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-estacion/operativa&gt; ;
+  esbici:estadoEstacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/operativa&gt; ;
   esequipo:tipoEquipamiento &lt;http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas&gt; ;
   esbici:tieneAsociadoAnclaje &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; .
 </pre>
 <span class="markdown">
-  A continuación, se representa una instancia de [esbici:Anclaje](#Anclaje) para la que se ha especificado su identificador ([dct:identifier](http://purl.org/dc/terms/identifier)) y el estado en el que se encuentra. Para expresar su estado se utiliza la propiedad [esbici:estadoAnclaje](#estadoAnclaje) para enlazar el Anclaje con el concepto correspondiente del SKOS de [tipo-estado-anclaje](http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje), que para el caso del ejemplo es libre.
+  A continuación, se representa una instancia de [esbici:Anclaje](#Anclaje) para la que se ha especificado su identificador ([dct:identifier](http://purl.org/dc/terms/identifier)) y el estado en el que se encuentra. Para expresar su estado se utiliza la propiedad [esbici:estadoAnclaje](#estadoAnclaje) para enlazar el Anclaje con el concepto correspondiente del SKOS de [tipo-estado-anclaje](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje), que para el caso del ejemplo es libre.
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; a esbici:Anclaje ;
   dct:identifier "11AN"@es ;
-  esbici:estadoAnclaje &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-anclaje/libre&gt; .
+  esbici:estadoAnclaje &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre&gt; .
 </pre>
 
 <span class="markdown">
@@ -58,14 +58,14 @@ Para representar un trayecto se ha creado una instancia de la clase [esbici:Tray
 </pre>
 
 <span class="markdown">
-Finalmente, se representa una instancia de [esbici:Bicicleta](#Bicicleta) para la que se ha especificado su identificador ([dct:identifier](http://purl.org/dc/terms/identifier)), su número de matrícula [esbici:matricula](#matricula) y el estado en el que se encuentra. Para expresar su estado se utiliza la propiedad [esbici:estadoBicicleta](#estadoBicicleta) para enlazar la Bicicleta con el concepto correspondiente del SKOS de [tipo-estado-bicicleta](http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta), que para el caso del ejemplo es ocupada.
+Finalmente, se representa una instancia de [esbici:Bicicleta](#Bicicleta) para la que se ha especificado su identificador ([dct:identifier](http://purl.org/dc/terms/identifier)), su número de matrícula [esbici:matricula](#matricula) y el estado en el que se encuentra. Para expresar su estado se utiliza la propiedad [esbici:estadoBicicleta](#estadoBicicleta) para enlazar la Bicicleta con el concepto correspondiente del SKOS de [tipo-estado-bicicleta](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta), que para el caso del ejemplo es ocupada.
 </span>
 
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Bicicleta/7c2a90085d77717ea2232760a2de2d36&gt; a esbici:Bicicleta ;
   dct:identifier "B13425"@es ;
   esbici:matricula "MAD13425"@es ;
-  esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-estado-bicicleta/ocupada&gt; .
+  esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/ocupada&gt; .
 </pre>
 
 

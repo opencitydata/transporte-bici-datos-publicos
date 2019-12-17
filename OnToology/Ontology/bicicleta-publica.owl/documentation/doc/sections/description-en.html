@@ -25,7 +25,7 @@ The main concept of this module is [esbici:EstacionBicicleta](#EstacionBicicleta
 <span class="markdown">
   In order to facilitate the understanding of the use of some classes and properties of this vocabulary, some examples will be provided below.
 
-  First of all, for the representation of a bicycle station an instance of the class is created [esbici:EstacionBicicleta](#EstacionBicicleta) with the properties [dct:identifier](http://purl.org/dc/terms/identifier) (station identifier), [schema:name](https://schema.org/name) (station name), [esequip:fechaAlta](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta) (discharge date of the station), [esequip:fechaBaja](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja) (leaving date of the station) and [schema:address](https://schema.org/address) (address of the station). Likewise, the station is linked by property [esbici:estadoEstacion](#estadoEstacion) with the corresponding concept of the state taxonomy of the station, which in the case of the example is a station [esbici-kos:operativa](http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion/operativa). Finally, the station is associated through the property [esbici:tieneAsociadoAnclaje](#tieneAsociadoAnclaje) with an instance of [esbici:Anclaje](#Anclaje) that corresponds to one of the station's docks and that has a [dct:identifier](http://purl.org/dc/terms/identifier) (identifier).
+  First of all, for the representation of a bicycle station an instance of the class is created [esbici:EstacionBicicleta](#EstacionBicicleta) with the properties [dct:identifier](http://purl.org/dc/terms/identifier) (station identifier), [schema:name](https://schema.org/name) (station name), [esequip:fechaAlta](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta) (discharge date of the station), [esequip:fechaBaja](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja) (leaving date of the station) and [schema:address](https://schema.org/address) (address of the station). Likewise, the station is linked by property [esbici:estadoEstacion](#estadoEstacion) with the corresponding concept of the state taxonomy of the station, which in the case of the example is a station [esbici-kos:operativa](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-estacion/operativa). Finally, the station is associated through the property [esbici:tieneAsociadoAnclaje](#tieneAsociadoAnclaje) with an instance of [esbici:Anclaje](#Anclaje) that corresponds to one of the station's docks and that has a [dct:identifier](http://purl.org/dc/terms/identifier) (identifier).
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt; a esbici:EstacionBicicleta ;
@@ -33,17 +33,17 @@ The main concept of this module is [esbici:EstacionBicicleta](#EstacionBicicleta
   esequip:nombre "Puerta del Sol A"@es ;
   esequip:fechaAlta "2014-06-23"^^xsd:date ;
   schema:address "PUERTA DEL SOL, PLAZA, DE LA, 1 B"@es ;
-  esbici:estadoEstacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-estacion/operativa&gt; ;
+  esbici:estadoEstacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-estacion/operativa&gt; ;
   esequipo:tipoEquipamiento &lt;http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas&gt; ;
   esbici:tieneAsociadoAnclaje &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; .
 </pre>
 <span class="markdown">
-  The following is an instance of [esbici:Anclaje](#Anclaje) for which the identifier ([dct:identifier](http://purl.org/dc/terms/identifier)) has been specified and the status in which it is. To express its status, use the [esbici:estadoAnclaje](#estadoAnclaje) property to link the dock with the corresponding SKOS concept of [estado-anclaje](http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje), which in the case of the example is free.
+  The following is an instance of [esbici:Anclaje](#Anclaje) for which the identifier ([dct:identifier](http://purl.org/dc/terms/identifier)) has been specified and the status in which it is. To express its status, use the [esbici:estadoAnclaje](#estadoAnclaje) property to link the dock with the corresponding SKOS concept of [estado-anclaje](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-anclaje), which in the case of the example is free.
 </span>
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; a esbici:Anclaje ;
   dct:identifier "11AN"@es ;
-  esbici:estadoAnclaje &lt;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-anclaje/libre&gt; .
+  esbici:estadoAnclaje &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-anclaje/libre&gt; .
 </pre>
 
 <span class="markdown">
@@ -60,14 +60,14 @@ To represent a route, an instance of the class has been created [esbici:Trayecto
 </pre>
 
 <span class="markdown">
-Finally, an instance of [esbici:Bicicleta](#Bicicleta) is represented which your identifier was specified for ([dct:identifier](http://purl.org/dc/terms/identifier)), its license plate [esbici:matricula](#matricula) and the state it is in. To express its status the property [esbici:estadoBicicleta](#estadoBicicleta) is used to link the Bicycle with the corresponding SKOS concept of [estado-bicicleta](http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta), which in the case of the example is occupied.
+Finally, an instance of [esbici:Bicicleta](#Bicicleta) is represented which your identifier was specified for ([dct:identifier](http://purl.org/dc/terms/identifier)), its license plate [esbici:matricula](#matricula) and the state it is in. To express its status the property [esbici:estadoBicicleta](#estadoBicicleta) is used to link the Bicycle with the corresponding SKOS concept of [estado-bicicleta](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-bicicleta), which in the case of the example is occupied.
 </span>
 
 <pre>
 &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Bicicleta/7c2a90085d77717ea2232760a2de2d36&gt; a esbici:Bicicleta ;
   dct:identifier "B13425"@es ;
   esbici:matricula "MAD13425"@es ;
-  esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/transporte/estado-bicicleta/ocupada&gt; .
+  esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-bicicleta/ocupada&gt; .
 </pre>
 
 <span class="markdown">

@@ -611,7 +611,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje"/>
-                <owl:someValuesFrom rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"/>
+                <owl:allValuesFrom rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
