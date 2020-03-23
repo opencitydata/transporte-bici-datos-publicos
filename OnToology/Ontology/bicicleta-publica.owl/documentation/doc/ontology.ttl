@@ -689,6 +689,11 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
+###  http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta> rdf:type owl:NamedIndividual ,
+                                                                                                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
 ###  http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> rdf:type owl:NamedIndividual ,
                                                                                                                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
