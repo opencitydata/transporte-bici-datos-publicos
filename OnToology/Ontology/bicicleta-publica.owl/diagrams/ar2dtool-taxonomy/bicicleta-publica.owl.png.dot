@@ -1,11 +1,11 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; ":PropiedadEstacion" ":PuntoPaso" "sosa:ObservableProperty" "sosa:FeatureOfInterest" ":Usuario" ":Ocupacion" "sosa:Observation" "sosa:Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" "-c59eefe:170a5957186:-7fd0" ":EstacionBicicleta" ":ObservacionEstacion" ":Bicicleta" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
+node [shape = rectangle, color="black"]; ":PropiedadEstacion" ":PuntoPaso" "sosa:ObservableProperty" "sosa:FeatureOfInterest" ":Usuario" ":Ocupacion" "sosa:Observation" "3323b523:17108b01746:-7fd0" "sosa:Sensor" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" ":EstacionBicicleta" ":ObservacionEstacion" ":Bicicleta" "http://www.opengis.net/spec/geosparql/1.0#Feature" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	":EstacionBicicleta" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento" [ label = "rdfs:subClassOf" ];
 	":EstacionBicicleta" -> "sosa:Sensor" [ label = "rdfs:subClassOf" ];
-	":Usuario" -> "-c59eefe:170a5957186:-7fd0" [ label = "rdfs:subClassOf" ];
+	":Usuario" -> "3323b523:17108b01746:-7fd0" [ label = "rdfs:subClassOf" ];
 	":Bicicleta" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	":PuntoPaso" -> "http://www.opengis.net/spec/geosparql/1.0#Feature" [ label = "rdfs:subClassOf" ];
 	":Ocupacion" -> "sosa:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
