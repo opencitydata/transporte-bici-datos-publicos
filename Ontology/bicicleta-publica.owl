@@ -39,10 +39,10 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <dc:contributor xml:lang="es">Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -50,43 +50,43 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-
+    
 
 
     <!-- http://purl.org/dc/terms/hasVersion -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
-
+    
 
 
     <!-- http://purl.org/dc/terms/issued -->
@@ -98,22 +98,22 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Date Issued</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-
+    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -121,16 +121,16 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -138,7 +138,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/linked-data/sdmx/2009/dimension#sex -->
@@ -157,7 +157,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
             </owl:Class>
         </rdfs:range>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoAnclaje -->
@@ -181,7 +181,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">dock status</rdfs:label>
         <rdfs:label xml:lang="es">estado de anclaje</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta -->
@@ -205,7 +205,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">bicycle status</rdfs:label>
         <rdfs:label xml:lang="es">estado de bicicleta</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoEstacion -->
@@ -229,7 +229,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">estado de estación</rdfs:label>
         <rdfs:label xml:lang="en">station status</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto -->
@@ -243,7 +243,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">makes a route</rdfs:label>
         <rdfs:label xml:lang="es">realiza un trayecto</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino -->
@@ -257,7 +257,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has dock of destination</rdfs:label>
         <rdfs:label xml:lang="es">tiene anclaje de destino</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen -->
@@ -269,7 +269,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has dock of origin</rdfs:label>
         <rdfs:label xml:lang="es">tiene anclaje de origen</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje -->
@@ -283,7 +283,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has an associated dock</rdfs:label>
         <rdfs:label xml:lang="es">tiene asociado un anclaje</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta -->
@@ -297,7 +297,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has a bicycle associated</rdfs:label>
         <rdfs:label xml:lang="es">tiene asociado una bicicleta</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso -->
@@ -311,7 +311,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has crossing point</rdfs:label>
         <rdfs:label xml:lang="es">tiene punto de paso</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino -->
@@ -325,7 +325,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has final dock station</rdfs:label>
         <rdfs:label xml:lang="es">tiene estación de destino</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen -->
@@ -339,7 +339,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">has initial dock station</rdfs:label>
         <rdfs:label xml:lang="es">tiene estación de origen</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento -->
@@ -347,7 +347,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
@@ -358,34 +358,34 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">is in scheme</rdfs:label>
         <skos:definition xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</skos:definition>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/hasFeatureOfInterest -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/madeBySensor -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/madeBySensor"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/observedProperty -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observedProperty"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/observes -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observes"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -393,7 +393,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/dc/terms/identifier -->
@@ -417,7 +417,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">Identificador</rdfs:label>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://schema.org/endDate -->
@@ -431,7 +431,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">end date</rdfs:label>
         <rdfs:label xml:lang="es">fecha de fin</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://schema.org/startDate -->
@@ -445,7 +445,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">fecha de inicio</rdfs:label>
         <rdfs:label xml:lang="en">start date</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento -->
@@ -459,7 +459,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">Año de nacimiento</rdfs:label>
         <rdfs:label xml:lang="en">Year of birth</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#fechaPaso -->
@@ -471,7 +471,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Date of passage</rdfs:label>
         <rdfs:label xml:lang="es">fecha de paso</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula -->
@@ -483,7 +483,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Number plate</rdfs:label>
         <rdfs:label xml:lang="es">matrícula</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden -->
@@ -497,7 +497,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">orden</rdfs:label>
         <rdfs:label xml:lang="en">order</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta -->
@@ -508,7 +508,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">fecha de alta</rdfs:label>
         <rdfs:label xml:lang="en">start date</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja -->
@@ -519,7 +519,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">end date</rdfs:label>
         <rdfs:label xml:lang="es">fecha de baja</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://schema.org/address -->
@@ -531,7 +531,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">address</rdfs:label>
         <rdfs:label xml:lang="es">dirección</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://schema.org/name -->
@@ -544,10 +544,10 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">name</rdfs:label>
         <rdfs:label xml:lang="es">nombre</rdfs:label>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -555,7 +555,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje -->
@@ -574,7 +574,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">Anclaje</rdfs:label>
         <rdfs:label xml:lang="en">Dock</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta -->
@@ -600,7 +600,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">Bicicleta</rdfs:label>
         <rdfs:label xml:lang="en">Bicycle</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta -->
@@ -638,7 +638,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Dock station</rdfs:label>
         <rdfs:label xml:lang="es">Estación de bicicletas</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#ObservacionEstacion -->
@@ -665,7 +665,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion -->
@@ -676,7 +676,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Occupancy</rdfs:label>
         <rdfs:label xml:lang="es">Ocupacion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion -->
@@ -685,7 +685,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <rdfs:isDefinedBy rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"/>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso -->
@@ -712,7 +712,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Crossing point</rdfs:label>
         <rdfs:label xml:lang="es">Punto de paso</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto -->
@@ -782,7 +782,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Route</rdfs:label>
         <rdfs:label xml:lang="es">Trayecto</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario -->
@@ -829,7 +829,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">User</rdfs:label>
         <rdfs:label xml:lang="es">Usuario</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#Equipamiento -->
@@ -863,7 +863,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Equipamiento perteneciente a una administración, al que cualquier ciudadano puede acudir</rdfs:comment>
     </owl:Class>
-
+    
 
 
     <!-- http://www.opengis.net/spec/geosparql/1.0#Feature -->
@@ -873,7 +873,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0"/>
         <rdfs:label xml:lang="en">Feature</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
@@ -885,7 +885,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Concept</rdfs:label>
         <skos:definition>An abstract idea or notion; a unit of thought.</skos:definition>
     </owl:Class>
-
+    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
@@ -898,34 +898,34 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="en">Concept Scheme</rdfs:label>
         <skos:definition xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</skos:definition>
     </owl:Class>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/ObservableProperty"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/Observation -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation"/>
-
+    
 
 
     <!-- http://www.w3.org/ns/sosa/Sensor -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -933,13 +933,13 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/linked-data/sdmx/2009/code#sex -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/linked-data/sdmx/2009/code#sex"/>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesLibres -->
@@ -949,7 +949,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">anclajes libres</rdfs:label>
         <rdfs:label xml:lang="en">available docks</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados -->
@@ -959,7 +959,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
         <rdfs:label xml:lang="es">anclajes ocupados</rdfs:label>
         <rdfs:label xml:lang="en">no-available docks</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje -->
@@ -967,7 +967,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta -->
@@ -975,7 +975,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion -->
@@ -983,7 +983,15 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
+    
 
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta -->
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento -->
@@ -991,7 +999,7 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas -->
@@ -1005,3 +1013,4 @@ En esta versión se han incluido clases y propiedades de acuerdo a los requisito
 
 
 <!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
