@@ -10,6 +10,6 @@ El material generado en las diferentes actividades ejecutadas durante el desarro
 ## Mantenimiento
 Para gestionar aquellas incidencias o mejoras sugeridas con respecto al vocabulario te recomendamos seguir las guías proporcionadas en [Gestión de Issues](https://github.com/CiudadesAbiertas/vocab-transporte-bicicleta-publica/wiki/Gesti%C3%B3n-de-issues)
 
-# Ejemplos
+## Ejemplos
 
 Algunas [consultas](https://github.com/CiudadesAbiertas/vocab-transporte-bicicleta-publica/blob/master/examples/queries.md) a realizar en un SPARQL endpoint de pruebas se han habilitado para ejemplificar su funcionamiento.
