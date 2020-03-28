@@ -1,0 +1,85 @@
+<html>
+<h2 id="desc" class="list">Vocabulary for the representation of data about the public bicycle system: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Figure 1 presents the classes and properties of the public bicycle vocabulary. The main objective of this vocabulary is to allow the representation of the routes made by the users of the public bicycle system as well as to represent the state of occupation of the stations of the system.</span>
+<center><img src="resources/images/modeloConceptual.png"><figcaption>Figure 1. - Vocabulary for the representation of data about the public bicycle system</figcaption></center>
+<span class="markdown">
+
+To represent a route there is the concept [esbici:Trayecto](#Trayecto) that must be associated with a [esbici:Bicicleta](#Bicicleta) and, in turn, both a [esbici:EstacionBicicleta](#EstacionBicicleta) of origin and destination. Optionally, [esbici:Trayecto](#Trayecto) can have a [esbici:Anclaje](#Anclaje) of origin and destination as well as a series of crossing points, [esbici:PuntoDePaso](#PuntoPaso), and a [esbici:Usuario](#Usuario).
+
+In order to represent the possible crossing points of the routes, expressed in terms of their longitude and latitude, the classes [geosparql:Feature](http://www.opengis.net/doc/IS/geosparql/1.0#Feature), [geosparql:SpatialObject](http://www.opengis.net/doc/IS/geosparql/1.0#SpatialObject), [geosparql:Geometry](http://www.opengis.net/doc/IS/geosparql/1.0#Geometry) and [geosparql:Point](http://www.opengis.net/doc/IS/geosparql/1.0#Point) of the vocabulary [geosparql](http://www.opengis.net/doc/IS/geosparql/1.0) have been reused following the "Location pattern" in Figure 1. Similarly, these classes are reused to represent the location coordinates of bicycle stations and bicycles.
+
+Additionally, in this vocabulary several SKOS concept schemes have been used to represent the state of a bicycle, the state of a dock and the state of a dock station. In Figure 1 can be seen several relationships with the SKOS concept class, however, the specific values ​​have not been specified because they are different depending on the taxonomy they represent. In example, the [esbici:estadoBicicleta](#estadoBicicleta) property epresents whether the bicycle is occupied, available, under repair, in reserve, excluded or abandoned.
+
+Likewise, all observations about the occupancy status of each bicycle station are being captured, as it is represented in a summarised way as "SOSA Pattern" in Figure 1, and which is described more clearly in Figure 2 below:
+</span>
+
+<center><img src="resources/images/modeloConceptualObs.png"><figcaption>Figure 2. - Observation module of a bicycle station</figcaption></center>
+<span class="markdown">
+The main concept of this module is [esbici:EstacionBicicleta](#EstacionBicicleta) for which the classes [sosa:Sensor](http://www.w3.org/ns/sosa/Sensor), [sosa:Observation](http://www.w3.org/ns/sosa/Observation), [sosa:ObservableProperty](http://www.w3.org/ns/sosa/ObservableProperty) and [sosa:FeatureOfInterest](http://www.w3.org/ns/sosa/FeatureOfInterest) of the vocabulary [sosa](http://www.w3.org/ns/sosa/) are reused. Specifically, a bicycle station will be observed [esbici:ObservacionEstacion](#ObservacionEstacion) whose occupation feature is of interest, [esbici:Ocupacion](#Ocupacion). The property to be observed and which the result of the observation is to be obtained for is [esbici:PropiedadEstacion](#PropiedadEstacion). This station property allows to represent the number of station docks, which are occupied, [esbici:anclajesOcupados](esbici:anclajesOcupados), and which are free, [esbici:anclajesLibres](esbici:anclajesLibres).
+</span>
+
+</span>
+
+<h3>3.1 Use cases<span class="backlink"> back to <a href="#toc">ToC</a></span></h3>
+<span class="markdown">
+  In order to facilitate the understanding of the use of some classes and properties of this vocabulary, some examples will be provided below.
+
+  First of all, for the representation of a bicycle station an instance of the class is created [esbici:EstacionBicicleta](#EstacionBicicleta) with the properties [dct:identifier](http://purl.org/dc/terms/identifier) (station identifier), [schema:name](https://schema.org/name) (station name), [esequip:fechaAlta](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta) (discharge date of the station), [esequip:fechaBaja](http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja) (leaving date of the station) and [schema:address](https://schema.org/address) (address of the station). Likewise, the station is linked by property [esbici:estadoEstacion](#estadoEstacion) with the corresponding concept of the state taxonomy of the station, which in the case of the example is a station [esbici-kos:operativa](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-estacion/operativa). Finally, the station is associated through the property [esbici:tieneAsociadoAnclaje](#tieneAsociadoAnclaje) with an instance of [esbici:Anclaje](#Anclaje) that corresponds to one of the station's docks and that has a [dct:identifier](http://purl.org/dc/terms/identifier) (identifier).
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt; a esbici:EstacionBicicleta ;
+  dct:identifier "001A"@es ;
+  esequip:nombre "Puerta del Sol A"@es ;
+  esequip:fechaAlta "2014-06-23"^^xsd:date ;
+  schema:address "PUERTA DEL SOL, PLAZA, DE LA, 1 B"@es ;
+  esbici:estadoEstacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-estacion/operativa&gt; ;
+  esequipo:tipoEquipamiento &lt;http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas&gt; ;
+  esbici:tieneAsociadoAnclaje &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; .
+</pre>
+<span class="markdown">
+  The following is an instance of [esbici:Anclaje](#Anclaje) for which the identifier ([dct:identifier](http://purl.org/dc/terms/identifier)) has been specified and the status in which it is. To express its status, use the [esbici:estadoAnclaje](#estadoAnclaje) property to link the dock with the corresponding SKOS concept of [estado-anclaje](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-anclaje), which in the case of the example is free.
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; a esbici:Anclaje ;
+  dct:identifier "11AN"@es ;
+  esbici:estadoAnclaje &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-anclaje/libre&gt; .
+</pre>
+
+<span class="markdown">
+To represent a route, an instance of the class has been created [esbici:Trayecto](#Trayecto) with properties [dct:identifier](http://purl.org/dc/terms/identifier) (route identifier), [schema:startDate](https://schema.org/startDate) (route start date and time), and the relantionship with teh properties [esbici:tieneAsociadoBicicleta](#tieneAsociadoBicicleta), which indicates the bicycle associated with that route, [esbici:tieneEstacionOrigen](#tieneEstacionOrigen) indicating the station of origin of the route and [esbici:tieneAnclajeOrigen](#tieneAnclajeOrigen) indicating the exact dock of the station of origin. As it can be seen below, in the class instance [esbici:Bicicleta](#Bicicleta) in its occupied state, the route has not been completed, so there is no dock or destination station yet. In the case where the route has been completed, it would be enough to add to this example the [schema:endDate](https://schema.org/endDate) (end date and time of the route), [esbici:tieneEstacionDestino](#tieneEstacionDestino) to indicate the destination station and [esbici:tieneAnclajeDestino](#tieneAnclajeDestino) to indicate the dock which the Bicycle was left in.
+</span>
+
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Trayecto/4f0b79985d77717ea2232760a2de2d36&gt; a esbici:Trayecto ;
+  dct:identifier "T201912100041"@es ;
+  schema:startDate "2019-12-10T11:30:00"^^xsd:dateTime ;
+  esbici:tieneAsociadoBicicleta &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Bicicleta/7c2a90085d77717ea2232760a2de2d36&gt; ;
+  esbici:tieneEstacionOrigen &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt; ;
+  esbici:tieneAnclajeOrigen &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Anclaje/9b1a90085d77717ea2232760a2de2d36&gt; ;
+</pre>
+
+<span class="markdown">
+Finally, an instance of [esbici:Bicicleta](#Bicicleta) is represented which your identifier was specified for ([dct:identifier](http://purl.org/dc/terms/identifier)), its license plate [esbici:matricula](#matricula) and the state it is in. To express its status the property [esbici:estadoBicicleta](#estadoBicicleta) is used to link the Bicycle with the corresponding SKOS concept of [estado-bicicleta](http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-bicicleta), which in the case of the example is occupied.
+</span>
+
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/Bicicleta/7c2a90085d77717ea2232760a2de2d36&gt; a esbici:Bicicleta ;
+  dct:identifier "B13425"@es ;
+  esbici:matricula "MAD13425"@es ;
+  esbici:estadoBicicleta &lt;http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/estado-bicicleta/ocupada&gt; .
+</pre>
+
+<span class="markdown">
+To represent an observation in a station, an instance of the class has been created, [esbici:ObservacionEstacion](#ObservacionEstacion) which the result of this observation has been obtained from, ([sosa:hasSimpleResult](http://www.w3.org/ns/sosa/hasSimpleResult)), the date and time of the observation, [sosa:resultTime](http://www.w3.org/ns/sosa/resultTime), the sensor that made the observation, [sosa:madeBySensor](http://www.w3.org/ns/sosa/madeBySensor) and the property that has been observed, [sosa:sosa:observedProperty](http://www.w3.org/ns/sosa/sosa:observedProperty), in this case, the non-free docks of a bicycle station.
+</span>
+
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/ObservacionEstacion/7g0l23012d77717ea2232760a2de2d36&gt; a sosa:Observation, esbici:ObservacionEstacion ;
+  sosa:hasSimpleResult “12” ;
+  sosa:resultTime "2019-12-10T13:00:00"^^xsd:dateTime ;
+  sosa:madeBySensor &lt;http://vocab.ciudadesabiertas.es/recurso/transporte/bicicleta-publica/EstacionBicicleta/6c0a90085d77717ea2232760a2de2d36&gt;
+  sosa:observedProperty &lt;http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesOcupados&gt .
+</pre>
+
+</html>
