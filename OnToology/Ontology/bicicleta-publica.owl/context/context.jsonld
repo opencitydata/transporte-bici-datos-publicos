@@ -116,6 +116,10 @@
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
     },
+    "modeloBicicleta" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta",
+      "@type" : "@id"
+    },
     "observes" : {
       "@id" : "http://www.w3.org/ns/sosa/observes",
       "@type" : "@id"

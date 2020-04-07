@@ -39,6 +39,25 @@
 }, {
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
       "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
@@ -55,7 +74,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid24",
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -68,53 +87,13 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula"
-  } ]
-}, {
-  "@id" : "_:genid26",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/dc/terms/identifier"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ]
-}, {
-  "@id" : "_:genid27",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje"
-  } ]
-}, {
-  "@id" : "_:genid28",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/observes"
-  } ]
-}, {
-  "@id" : "_:genid29",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento"
   } ]
 }, {
   "@id" : "_:genid3",
@@ -128,6 +107,46 @@
 }, {
   "@id" : "_:genid30",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoAnclaje"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/observes"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#tipoEquipamiento"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
@@ -135,7 +154,7 @@
     "@id" : "https://schema.org/address"
   } ]
 }, {
-  "@id" : "_:genid31",
+  "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion"
@@ -144,7 +163,7 @@
     "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest"
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
@@ -153,7 +172,7 @@
     "@id" : "http://www.w3.org/ns/sosa/madeBySensor"
   } ]
 }, {
-  "@id" : "_:genid33",
+  "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PropiedadEstacion"
@@ -162,7 +181,7 @@
     "@id" : "http://www.w3.org/ns/sosa/observedProperty"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -175,7 +194,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -188,7 +207,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
@@ -197,7 +216,7 @@
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeDestino"
   } ]
 }, {
-  "@id" : "_:genid37",
+  "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Anclaje"
@@ -206,7 +225,7 @@
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAnclajeOrigen"
   } ]
 }, {
-  "@id" : "_:genid38",
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#PuntoPaso"
@@ -215,7 +234,7 @@
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso"
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
@@ -228,7 +247,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid40",
+  "@id" : "_:genid44",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
@@ -241,7 +260,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta"
@@ -254,7 +273,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid42",
+  "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -263,7 +282,7 @@
     "@id" : "http://schema.org/endDate"
   } ]
 }, {
-  "@id" : "_:genid43",
+  "@id" : "_:genid47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -272,7 +291,7 @@
     "@id" : "http://schema.org/startDate"
   } ]
 }, {
-  "@id" : "_:genid44",
+  "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -285,36 +304,14 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid45",
+  "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid49"
+      "@id" : "_:genid53"
     }, {
-      "@id" : "_:genid47"
+      "@id" : "_:genid51"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid47",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension#sex"
-  } ]
-}, {
-  "@id" : "_:genid49",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension#sex"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -327,7 +324,29 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid50",
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension#sex"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension#sex"
+  } ]
+}, {
+  "@id" : "_:genid54",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto"
@@ -336,7 +355,7 @@
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto"
   } ]
 }, {
-  "@id" : "_:genid51",
+  "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -349,7 +368,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid52",
+  "@id" : "_:genid56",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -362,7 +381,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid53",
+  "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
@@ -371,7 +390,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta"
   } ]
 }, {
-  "@id" : "_:genid54",
+  "@id" : "_:genid58",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
@@ -380,7 +399,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaBaja"
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid59",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -389,7 +408,7 @@
     "@id" : "https://schema.org/name"
   } ]
 }, {
-  "@id" : "_:genid56",
+  "@id" : "_:genid60",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -449,7 +468,7 @@
     "@value" : "Referencia inequívoca al recurso dentro de un contexto dado."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid17"
+    "@id" : "_:genid21"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://purl.org/dc/terms/"
@@ -526,6 +545,13 @@
 }, {
   "@id" : "http://schema.org/startDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La fecha y hora de inicio de un item (en formato fecha ISO 8601)."
+  }, {
+    "@language" : "en",
+    "@value" : "The start date and time of the item (in ISO 8601 date format)."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto"
   } ],
@@ -533,12 +559,6 @@
     "@id" : "https://schema.org/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "La fecha y hora de inicio de un item (en formato fecha ISO 8601)."
-  }, {
-    "@language" : "en",
-    "@value" : "The start date and time of the item (in ISO 8601 date format)."
-  }, {
     "@language" : "es",
     "@value" : "fecha de inicio"
   }, {
@@ -569,7 +589,7 @@
     "@value" : "Dock"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid24"
+    "@id" : "_:genid28"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta",
@@ -594,9 +614,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.opengis.net/spec/geosparql/1.0#Feature"
   }, {
-    "@id" : "_:genid25"
+    "@id" : "_:genid29"
   }, {
-    "@id" : "_:genid26"
+    "@id" : "_:genid30"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta",
@@ -623,13 +643,13 @@
   }, {
     "@id" : "http://www.w3.org/ns/sosa/Sensor"
   }, {
-    "@id" : "_:genid27"
+    "@id" : "_:genid31"
   }, {
-    "@id" : "_:genid28"
+    "@id" : "_:genid32"
   }, {
-    "@id" : "_:genid29"
+    "@id" : "_:genid33"
   }, {
-    "@id" : "_:genid30"
+    "@id" : "_:genid34"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#ObservacionEstacion",
@@ -640,11 +660,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/sosa/Observation"
   }, {
-    "@id" : "_:genid31"
+    "@id" : "_:genid35"
   }, {
-    "@id" : "_:genid32"
+    "@id" : "_:genid36"
   }, {
-    "@id" : "_:genid33"
+    "@id" : "_:genid37"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Ocupacion",
@@ -694,9 +714,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.opengis.net/spec/geosparql/1.0#Feature"
   }, {
-    "@id" : "_:genid34"
+    "@id" : "_:genid38"
   }, {
-    "@id" : "_:genid35"
+    "@id" : "_:genid39"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto",
@@ -719,14 +739,6 @@
     "@value" : "Trayecto"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid36"
-  }, {
-    "@id" : "_:genid37"
-  }, {
-    "@id" : "_:genid38"
-  }, {
-    "@id" : "_:genid39"
-  }, {
     "@id" : "_:genid40"
   }, {
     "@id" : "_:genid41"
@@ -736,6 +748,14 @@
     "@id" : "_:genid43"
   }, {
     "@id" : "_:genid44"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid46"
+  }, {
+    "@id" : "_:genid47"
+  }, {
+    "@id" : "_:genid48"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario",
@@ -758,13 +778,13 @@
     "@value" : "Usuario"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid45"
+    "@id" : "_:genid49"
   }, {
-    "@id" : "_:genid50"
+    "@id" : "_:genid54"
   }, {
-    "@id" : "_:genid51"
+    "@id" : "_:genid55"
   }, {
-    "@id" : "_:genid52"
+    "@id" : "_:genid56"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anclajesLibres",
@@ -927,6 +947,32 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cada bicicleta puede tener modelo mecánico o eléctrico"
+  }, {
+    "@language" : "en",
+    "@value" : "Each bicycle can have mechanical or electric model."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bicycle model"
+  }, {
+    "@language" : "es",
+    "@value" : "modelo de bicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid17"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden",
@@ -1165,13 +1211,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.opengis.net/spec/geosparql/1.0#Feature"
   }, {
-    "@id" : "_:genid53"
+    "@id" : "_:genid57"
   }, {
-    "@id" : "_:genid54"
+    "@id" : "_:genid58"
   }, {
-    "@id" : "_:genid55"
+    "@id" : "_:genid59"
   }, {
-    "@id" : "_:genid56"
+    "@id" : "_:genid60"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta",

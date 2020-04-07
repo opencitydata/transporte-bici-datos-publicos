@@ -88,7 +88,9 @@ This section provides details for each class and property defined by Vocabulary 
          <dd>
             <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula"
                title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula">Number plate</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta"
+               title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta">bicycle model</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta"
                title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta">bicycle status</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -453,8 +455,7 @@ This section provides details for each class and property defined by Vocabulary 
          <dd/>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#http://schema.org/startDate" title="http://schema.org/startDate">The start date and time of the item (in ISO 8601 date format).</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://schema.org/endDate" title="http://schema.org/endDate">end date</a>
+            <a href="#http://schema.org/endDate" title="http://schema.org/endDate">end date</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta"
                title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoBicicleta">has a bicycle associated</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneAsociadoPuntoDePaso"
@@ -467,7 +468,8 @@ This section provides details for each class and property defined by Vocabulary 
                title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionDestino">has final dock station</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen"
                title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#tieneEstacionOrigen">has initial dock station</a>
-            <sup class="type-op" title="object property">op</sup>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://schema.org/startDate" title="http://schema.org/startDate">start date</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
@@ -511,6 +513,10 @@ This section provides details for each class and property defined by Vocabulary 
 </div><div id="objectproperties">
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
+      <li>
+         <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta"
+            title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta">bicycle model</a>
+      </li>
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta"
             title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta">bicycle status</a>
@@ -571,6 +577,40 @@ This section provides details for each class and property defined by Vocabulary 
          </a>
       </li>
    </ul>
+   <div class="entity" id="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta">
+      <h3>bicycle model<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta</p>
+      <div class="comment">
+         <span class="markdown">Cada bicicleta puede tener modelo mecánico o eléctrico</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.w3.org/ns/sosa/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta"
+                  title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta">Bicycle</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> (<a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">value</span> 
+               <a href="#http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta"
+                  title="http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta">tipo modelo bicicleta</a>)</dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#estadoBicicleta">
       <h3>bicycle status<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -1039,15 +1079,15 @@ This section provides details for each class and property defined by Vocabulary 
             title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#matricula">Number plate</a>
       </li>
       <li>
+         <a href="#http://schema.org/startDate" title="http://schema.org/startDate">start date</a>
+      </li>
+      <li>
          <a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta"
             title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta">start date</a>
       </li>
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden"
             title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#orden">The order number of a crossing point.</a>
-      </li>
-      <li>
-         <a href="#http://schema.org/startDate" title="http://schema.org/startDate">The start date and time of the item (in ISO 8601 date format).</a>
       </li>
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#anioNacimiento"
@@ -1267,6 +1307,37 @@ This section provides details for each class and property defined by Vocabulary 
          </dl>
       </div>
    </div>
+   <div class="entity" id="http://schema.org/startDate">
+      <h3>start date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/startDate</p>
+      <div class="comment">
+         <span class="markdown">The start date and time of the item (in ISO 8601 date format).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://schema.org/">https://schema.org/</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto"
+                  title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto">Route</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#fechaAlta">
       <h3>start date<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -1318,34 +1389,6 @@ This section provides details for each class and property defined by Vocabulary 
             <dt>has range</dt>
             <dd>
                <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://schema.org/startDate">
-      <h3>The start date and time of the item (in ISO 8601 date format).<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://schema.org/startDate</p>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="https://schema.org/">https://schema.org/</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto"
-                  title="http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto">Route</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
             </dd>
          </dl>
       </div>

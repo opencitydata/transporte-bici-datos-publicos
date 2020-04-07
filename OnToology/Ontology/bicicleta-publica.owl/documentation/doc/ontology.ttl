@@ -153,6 +153,24 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                               "station status"@en .
 
 
+###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#modeloBicicleta> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Bicicleta> ;
+                                                                                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                                                                        owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta>
+                                                                                                                      ]
+                                                                                                                    ) ;
+                                                                                                 rdf:type owl:Class
+                                                                                               ] ;
+                                                                                    rdfs:comment "Cada bicicleta puede tener modelo mecánico o eléctrico"@en ,
+                                                                                                 "Each bicycle can have mechanical or electric model."@en ;
+                                                                                    rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica" ;
+                                                                                    rdfs:label "bicycle model"@en ,
+                                                                                               "modelo de bicicleta"@es .
+
+
 ###  http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#realizaTrayecto> rdf:type owl:ObjectProperty ;
                                                                                     rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Usuario> ;
@@ -305,10 +323,10 @@ xsd:date rdf:type rdfs:Datatype .
 <http://schema.org/startDate> rdf:type owl:DatatypeProperty ;
                               rdfs:domain <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#Trayecto> ;
                               rdfs:range xsd:dateTime ;
+                              rdfs:comment "La fecha y hora de inicio de un item (en formato fecha ISO 8601)."@es ,
+                                           "The start date and time of the item (in ISO 8601 date format)."@en ;
                               rdfs:isDefinedBy <https://schema.org/> ;
-                              rdfs:label "La fecha y hora de inicio de un item (en formato fecha ISO 8601)."@es ,
-                                         "The start date and time of the item (in ISO 8601 date format)."@en ,
-                                         "fecha de inicio"@es ,
+                              rdfs:label "fecha de inicio"@es ,
                                          "start date"@en .
 
 
